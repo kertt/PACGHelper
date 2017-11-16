@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="dks.pathfinderacghelper.RuneChar">
+
+    <item android:id="@+id/runeCards"
+        android:icon="@drawable/ic_action_search"
+        android:title="Story"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/runeDList"
+        android:icon="@drawable/ic_action_cut"
+        android:title="Powers"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/runeSkills"
+        android:icon="@drawable/ic_action_photo"
+        android:title="Cards"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/runePowers1"
+        android:icon="@drawable/ic_action_share"
+        android:title="Power1"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/runePowers2"
+        android:icon="@drawable/ic_action_refresh"
+        android:title="Power2"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+</menu>

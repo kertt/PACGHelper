@@ -1,0 +1,2710 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pathfinder ACG Helper</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_rise_of_the_runelords">Rise Of The Runelords</string>
+    <string name="title_activity_skull_and_shackles">Skull And Shackles</string>
+    <string name="title_activity_class_decks">Class Decks</string>
+    <string name="title_activity_wotr">Wrath of the Righteous</string>
+    <string name="skills_headline"><b>Skills and Powers</b></string>
+    <string name="card_list"><b>Cards List</b></string>
+
+
+    <string-array name="class_decks">
+        <item>Bard</item>
+        <item>Cleric</item>
+        <item>Fighter</item>
+        <item>Ranger</item>
+        <item>Rogue</item>
+        <item>Sorcerer</item>
+        <item>Wizard</item>
+    </string-array>
+    <string-array name="RuneLords">
+        <item>Amiri</item>
+        <item>Ezren</item>
+        <item>Harsk</item>
+        <item>Kyra</item>
+        <item>Lem</item>
+        <item>Lini</item>
+        <item>Merisiel</item>
+        <item>Sajan</item>
+        <item>Seelah</item>
+        <item>Seoni</item>
+        <item>Valeros</item>
+    </string-array>
+    <string-array name="SkullShackles">
+        <item>Alahazra</item>
+        <item>Damiel</item>
+        <item>Feiya</item>
+        <item>Jirelle</item>
+        <item>Lem</item>
+        <item>Lini</item>
+        <item>Lirianne</item>
+        <item>Merisiel</item>
+        <item>Oloch</item>
+        <item>Seltyiel</item>
+        <item>Ranzak</item>
+        <item>Valeros</item>
+    </string-array>
+    <string-array name="WotR">
+        <item>Adowyn</item>
+        <item>Alain</item>
+        <item>Balazar</item>
+        <item>Crowe</item>
+        <item>Ekkie</item>
+        <item>Enora</item>
+        <item>Harsk</item>
+        <item>Imrijka</item>
+        <item>Kyra</item>
+        <item>Seelah</item>
+        <item>Seoni</item>
+        <item>Shardra</item>
+    </string-array>
+    <string-array name="ClassDeck0">
+        <item>Bekah</item>
+        <item>Lem</item>
+        <item>Meliski</item>
+        <item>Siwar</item>
+    </string-array>
+    <string-array name="ClassDeck1">
+        <item>Heggal</item>
+        <item>Kyra</item>
+        <item>Tarlin</item>
+        <item>Zarlova</item>
+    </string-array>
+    <string-array name="ClassDeck2">
+        <item>Flenta</item>
+        <item>Tontelizi</item>
+        <item>Valeros</item>
+        <item>Vika</item>
+    </string-array>
+    <string-array name="ClassDeck3">
+        <item>Agna</item>
+        <item>Arabundi</item>
+        <item>Harsk</item>
+        <item>Wrathack</item>
+    </string-array>
+    <string-array name="ClassDeck4">
+        <item>Lesath</item>
+        <item>Merisiel</item>
+        <item>Olenjack</item>
+        <item>Wu Shen</item>
+    </string-array>
+    <string-array name="ClassDeck5">
+        <item>Amaryllis</item>
+        <item>Qualzar</item>
+        <item>Seoni</item>
+        <item>Valendron</item>
+    </string-array>
+    <string-array name="ClassDeck6">
+        <item>Darago</item>
+        <item>Ezren</item>
+        <item>Melindra</item>
+        <item>Radillo</item>
+    </string-array>
+    <string-array name="cardscc">
+        <item><b>WEAPON:   </b></item>
+        <item><b>SPELL:    </b></item>
+        <item><b>ARMOR:    </b></item>
+        <item><b>ITEM:     </b></item>
+        <item><b>ALLY:     </b></item>
+        <item><b>BLESSING: </b></item>
+    </string-array>
+
+    <!-- AMIRI -->
+
+    <string-array name="amiri_rrskillsPretxt">
+        <item><b>STRENGTH:</b>     d12 \nMELEE: STRENGTH +2</item>
+        <item><b>DEXTERITY:</b>    d6</item>
+        <item><b>CONSTITUTION:</b> d8</item>
+        <item><b>INTELLIGENCE:</b> d4</item>
+        <item><b>WISDOM:</b>       d6 \nSURVIVAL: WISDOM +3 </item>
+        <item><b>CHARISMA:</b>     d6</item>
+        <item><b>HAND SIZE:</b>    4</item>
+        <item><b>PROFICIENT WITH:</b> Light Armors Weapons</item>
+        <item>You may bury a card from your hand to add 1d10 to your Strength, Melee, or Constitution check.</item>
+        <item>You may move at the end of your turn </item>
+    </string-array>
+    <string-array name="amiri_rrskills1txt">
+        <item>+1</item>
+        <item>+1</item>
+        <item>+1</item>
+        <item>+1</item>
+        <item>+1</item>
+        <item>+1</item>
+        <item>5</item>
+        <item>Heavy Armors</item>
+        <item>+1</item>
+        <item> and / or move another character to the location where you end your turn.</item>
+    </string-array>
+    <string-array name="amiri_rrskills2txt">
+        <item>+2</item>
+        <item>+2</item>
+        <item>+2</item>
+        <item>-</item>
+        <item>-</item>
+        <item>+2</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="amiri_rrskills3txt">
+        <item>+3</item>
+        <item>+3</item>
+        <item>+3</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="amiri_rrskills4txt">
+        <item>+4</item>
+        <item>-</item>
+        <item>+4</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="amiri_rrskills1Vis">
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+    </string-array>
+    <string-array name="amiri_rrskills2Vis">
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>false</item>
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="amiri_rrskills3Vis">
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="amiri_rrskills4Vis">
+        <item>true</item>
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+    </string-array>
+    <string name="amiri_rrrole1"><b>AMIRI(BERSERKER)</b></string>
+    <string name="amiri_rrrole2"><b>AMIRI(JUGGERNAUT)</b></string>
+    <string name="amiri_rrAk">amiri_rrAk</string>
+    <string name="amiri_rrFav">Weapon</string>
+    <string-array name="amiri_rrrole1">
+        <item><b>HAND SIZE:</b> 4 □5 □6</item>
+        <item><b>PROFICIENT WITH</b> Light Armors  □ Heavy Armors  Weapons</item>
+        <item>You may bury a card from your hand (□ or the top card of your deck) to add 1d10 (□+1)(□+2)(□+3)(□+4) to your Strength, Melee, or Constitution check.</item>
+        <item>You may move at the end of your turn (□ and/or move another character to the location where you end your turn).</item>
+        <item>□ Add 2(□4) to your check to acquire a weapon.</item>
+        <item>□ When you play Blessing of Gorum, add d12 instead of the normal die.</item>
+    </string-array>
+    <string-array name="amiri_rrrole1Pretxt">
+        <item><b>HAND SIZE:</b> 4</item>
+        <item><b>PROFICIENT WITH:</b> Light Armors Weapons</item>
+        <item>You may bury a card from your hand to add 1d10 to your Strength, Melee, or Constitution check.</item>
+        <item>You may move at the end of your turn.</item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="amiri_rrrole1cb1txt">
+        <item>5</item>
+        <item>Heavy Armors</item>
+        <item>+1</item>
+        <item>and/or move another character to the location where you end your turn</item>
+        <item>Add 2(</item>
+        <item>When you play Blessing of Gorum, add d12 instead of the normal die.</item>
+    </string-array>
+    <string-array name="amiri_rrrole1cb2txt">
+        <item>6</item>
+        <item>-</item>
+        <item>+2</item>
+        <item></item>
+        <item>4) to your check to acquire a weapon.</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="amiri_rrrole1cb3txt">
+        <item>-</item>
+        <item>-</item>
+        <item>+3</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="amiri_rrrole1cb4txt">
+        <item>-</item>
+        <item>-</item>
+        <item>+4</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="amiri_rrrole1cb5txt">
+        <item>-</item>
+        <item>-</item>
+        <item>or the top card of your deck</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="amiri_rrrole1cb1Vis">
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+    </string-array>
+    <string-array name="amiri_rrrole1cb2Vis">
+        <item>true</item>
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="amiri_rrrole1cb3Vis">
+        <item>false</item>
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="amiri_rrrole1cb4Vis">
+        <item>false</item>
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="amiri_rrrole1cb5Vis">
+        <item>false</item>
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+    </string-array>
+
+    <string-array name="amiri_rrrole2">
+        <item><b>HAND SIZE</b> 4 □5 □6</item>
+        <item><b>PROFICIENT WITH</b> Light Armors  □ Heavy Armors  Weapons</item>
+        <item>You may bury a card from your hand to add 1d10(□+1)(□+2)(□+3) to your Strength, Melee, or Constituion check.</item>
+        <item>You may move at the end of your turn (□ and/or move another character to the location where you end your turn).</item>
+        <item>□ When you are dealt Combat (□ or any other type of) damage, reduce that damage by 1.</item>
+        <item>□ Add 2(□4) to your check to acquire an armor.</item>
+        <item>□ When you play Blessing of Gorum, add d12 instead of the normal die.</item>
+    </string-array>
+
+    <string-array name="amiri_rrrole2Pretxt">
+        <item><b>HAND SIZE:</b> 4</item>
+        <item><b>PROFICIENT WITH:</b> Light Armors Weapons</item>
+        <item>You may bury a card from your hand to add 1d10 to your Strength, Melee, or Constitution check.</item>
+        <item>You may move at the end of your turn.</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="amiri_rrrole2cb1txt">
+        <item>5</item>
+        <item>Heavy Armors</item>
+        <item>+1</item>
+        <item>and/or move another character to the location where you end your turn</item>
+        <item>When you are dealt Combat damage, reduce that damage by 1.</item>
+        <item>Add 2 (</item>
+        <item>When you play blessing of Gorum, add d12 instead of the normal die.</item>
+    </string-array>
+    <string-array name="amiri_rrrole2cb2txt">
+        <item>6</item>
+        <item>-</item>
+        <item>+2</item>
+        <item>-</item>
+        <item>-</item>
+        <item>4) to your check to acquire an armor.</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="amiri_rrrole2cb3txt">
+        <item>-</item>
+        <item>-</item>
+        <item>+3</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="amiri_rrrole2cb4txt">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="amiri_rrrole2cb5txt">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>or any type of damage</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="amiri_rrrole2cb1Vis">
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+    </string-array>
+    <string-array name="amiri_rrrole2cb2Vis">
+        <item>true</item>
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="amiri_rrrole2cb3Vis">
+        <item>false</item>
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="amiri_rrrole2cb4Vis">
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="amiri_rrrole2cb5Vis">
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="amiri_rrcardsnumb">
+        <item>5</item>
+        <item>0</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="amiri_rrcardscb1text">
+        <item>5</item>
+        <item>-</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="amiri_rrcardscb2text">
+        <item>6</item>
+        <item>-</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="amiri_rrcardscb3text">
+        <item>7</item>
+        <item>-</item>
+        <item>-</item>
+        <item>4</item>
+        <item>-</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="amiri_rrcardscb4text">
+        <item>8</item>
+        <item>-</item>
+        <item>-</item>
+        <item>5</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="amiri_rrcardscb5text">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="amiri_rrcardscb1vis">
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+    </string-array>
+    <string-array name="amiri_rrcardscb2vis">
+        <item>true</item>
+        <item>false</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+    </string-array>
+    <string-array name="amiri_rrcardscb3vis">
+        <item>true</item>
+        <item>false</item>
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+        <item>true</item>
+    </string-array>
+    <string-array name="amiri_rrcardscb4vis">
+        <item>true</item>
+        <item>false</item>
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="amiri_rrcardscb5vis">
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+    </string-array>
+
+    <!--Ezren-->
+
+
+    <string name="ezren_rrrole1"><b>EZREN (EVOKER)</b></string>
+    <string name="ezren_rrrole2"><b>EZREN (ILLUSIONIST)</b></string>
+    <string name="ezren_rrAk">ezren_rrAk</string>
+    <string name="ezren_rrFav">Spell</string>
+    <string-array name="ezren_rrskillsPretxt">
+        <item><b>STRENGTH:</b> d6</item>
+        <item><b>DEXTERITY:</b> d6</item>
+        <item><b>CONSTITUTION:</b> d4</item>
+        <item><b>INTELLIGENCE:</b> d12 \nARCANE: INTELLIGENCE +2 \nKNOWLEDGE: INTELLIGENCE +2</item>
+        <item><b>WISDOM:</b> d8</item>
+        <item><b>CHARISMA:</b> d6</item>
+        <item><b>HAND SIZE:</b> 6</item>
+        <item>After you play a spell with the Arcane trait, you may examine the top card of your deck; if it\'s a spell, you my put it in your hand.</item>
+        <item>If you acquire a card with the Magic trait during an exploration, you may immediately explore again.</item>
+        <item></item>
+    </string-array>
+    <string-array name="ezren_rrskills1txt">
+        <item>+1</item>
+        <item>+1</item>
+        <item>+1</item>
+        <item>+1</item>
+        <item>+1</item>
+        <item>+1</item>
+        <item>7</item>
+        <item>-</item>
+        <item>-</item>
+        <item>Add 1 (</item>
+    </string-array>
+    <string-array name="ezren_rrskills2txt">
+        <item>-</item>
+        <item>+2</item>
+        <item>+2</item>
+        <item>+2</item>
+        <item>+2</item>
+        <item>+2</item>
+        <item>8</item>
+        <item>-</item>
+        <item>-</item>
+        <item> 2) to your check to recharge a card.</item>
+    </string-array>
+    <string-array name="ezren_rrskills3txt">
+        <item>-</item>
+        <item>+3</item>
+        <item>-</item>
+        <item>+3</item>
+        <item>-</item>
+        <item>+3</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="ezren_rrskills4txt">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>+4</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="ezren_rrskills1Vis">
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>false</item>
+        <item>false</item>
+        <item>true</item>
+    </string-array>
+    <string-array name="ezren_rrskills2Vis">
+        <item>false</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>false</item>
+        <item>false</item>
+        <item>true</item>
+    </string-array>
+    <string-array name="ezren_rrskills3Vis">
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="ezren_rrskills4Vis">
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="ezren_rrrole1">
+        <item><b>HAND SIZE</b> 6 □7 □8 □9</item>
+        <item>After you play a spell with the Arcane trait, you may examine the top card of your deck; if it\'s a spell, you may put it in your hand.</item>
+        <item>If you acquire a card with the Magic trait during an exploration, you may immediately explore again.</item>
+        <item>□ Add 1 (□ 2) (□ 3) (□ 4) to your check to recharge a card.</item>
+        <item>□ Add 2 to your Arcane check with the Force (□ or Acid and Cold)(□ or Electricity and Fire) trait(s).</item>
+        <item>□ Add 2 (□4) to your check to acquire a spell.</item>
+    </string-array>
+    <string-array name="ezren_rrrole1Pretxt">
+        <item><b>HAND SIZE</b> 6</item>
+        <item>After you play a spell with the Arcane trait, you may examine the top card of your deck; if it\'s a spell, you may put it in your hand.</item>
+        <item>If you acquire a card with the Magic trait during an exploration, you may immediately explore again.</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="ezren_rrrole1cb1txt">
+        <item>7</item>
+        <item>-</item>
+        <item>-</item>
+        <item>Add 1 to your check to recharge a card.</item>
+        <item>Add 2 to your Arcane check with the Force trait.</item>
+        <item>Add 2 (</item>
+    </string-array>
+    <string-array name="ezren_rrrole1cb2txt">
+        <item>8</item>
+        <item>-</item>
+        <item>-</item>
+        <item>2</item>
+        <item>or Acid and Cold</item>
+        <item>4) to your check to acquire a spell.</item>
+    </string-array>
+    <string-array name="ezren_rrrole1cb3txt">
+        <item>9</item>
+        <item>-</item>
+        <item>-</item>
+        <item>3</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="ezren_rrrole1cb4txt">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>4</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="ezren_rrrole1cb5txt">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>or Electricity and Fire</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="ezren_rrrole1cb1Vis">
+        <item>true</item>
+        <item>-</item>
+        <item>false</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+    </string-array>
+    <string-array name="ezren_rrrole1cb2Vis">
+        <item>true</item>
+        <item>-</item>
+        <item>false</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+    </string-array>
+    <string-array name="ezren_rrrole1cb3Vis">
+        <item>true</item>
+        <item>-</item>
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="ezren_rrrole1cb4Vis">
+        <item>false</item>
+        <item>-</item>
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="ezren_rrrole1cb5Vis">
+        <item>false</item>
+        <item>-</item>
+        <item>false</item>
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+
+
+    <string-array name="ezren_rrrole2">
+        <item><b>HAND SIZE</b> 6 □7 □8</item>
+        <item>After you play a spell with the Arcane trait, you may examine the top card of your deck; if it\'s a spell, you may put it in your hand (□ or recharge it).</item>
+        <item>If you acquire a card with the Magic trait during an exploration, you may immediately explore again.</item>
+        <item>□ Add 1 (□ 2) (□ 3) (□ 4) to your check to recharge a card.</item>
+        <item>□ If you play a spell to evade a monster, you may put the monster on the bottom of the deck.</item>
+        <item>□ Add 2 (□ 4) to you check to acquire a spell (□ or ally).</item>
+        <item>□ At the start of your turn, you may discard a card to draw a card.</item>
+    </string-array>
+    <string-array name="ezren_rrrole2Pretxt">
+        <item><b>HAND SIZE</b> 6</item>
+        <item>After you play a spell with the Arcane trait, you may examine the top card of your deck; if it\'s a spell, you may put it in your hand.</item>
+        <item>If you acquire a card with the Magic trait during an exploration, you may immediately explore again.</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="ezren_rrrole2cb1txt">
+        <item>7</item>
+        <item>or recharge it</item>
+        <item>-</item>
+        <item>Add 1 to your check to recharge a card.</item>
+        <item>If you play a spell to evade a monster, you may put the monster on the bottom of the deck.</item>
+        <item>Add 2 (</item>
+        <item>At the start of your turn, you may discard a card to draw a card.</item>
+    </string-array>
+    <string-array name="ezren_rrrole2cb2txt">
+        <item>8</item>
+        <item>-</item>
+        <item>-</item>
+        <item>2</item>
+        <item>-</item>
+        <item>4) to your check to acquire a spell.</item>
+        <item></item>
+    </string-array>
+    <string-array name="ezren_rrrole2cb3txt">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>3</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="ezren_rrrole2cb4txt">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>4</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="ezren_rrrole2cb5txt">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>or ally</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="ezren_rrrole2cb1Vis">
+        <item>true</item>
+        <item>true</item>
+        <item>false</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+    </string-array>
+    <string-array name="ezren_rrrole2cb2Vis">
+        <item>true</item>
+        <item>-</item>
+        <item>false</item>
+        <item>true</item>
+        <item>-</item>
+        <item>true</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="ezren_rrrole2cb3Vis">
+        <item>-</item>
+        <item>-</item>
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+        <item>false</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="ezren_rrrole2cb4Vis">
+        <item>false</item>
+        <item>-</item>
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+        <item>false</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="ezren_rrrole2cb5Vis">
+        <item>false</item>
+        <item>-</item>
+        <item>false</item>
+        <item>false</item>
+        <item>-</item>
+        <item>true</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="ezren_rrcardscb1text">
+        <item>1</item>
+        <item>8</item>
+        <item>-</item>
+        <item>3</item>
+        <item>3</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="ezren_rrcardscb2text">
+        <item>2</item>
+        <item>9</item>
+        <item>1</item>
+        <item>4</item>
+        <item>4</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="ezren_rrcardscb3text">
+        <item>-</item>
+        <item>10</item>
+        <item>-</item>
+        <item>5</item>
+        <item>5</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="ezren_rrcardscb4text">
+        <item>-</item>
+        <item>11</item>
+        <item>-</item>
+        <item>6</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="ezren_rrcardscb5text">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="ezren_rrcardscb1vis">
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+    </string-array>
+    <string-array name="ezren_rrcardscb2vis">
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="ezren_rrcardscb3vis">
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+        <item>true</item>
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="ezren_rrcardscb4vis">
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="ezren_rrcardscb5vis">
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+    </string-array>
+
+    <!-- Harsk character info -->
+    <string name="harsk_rrrole1"><b>HARSK (SNIPER)</b></string>
+    <string name="harsk_rrrole2"><b>HARSK (TRACKER)</b></string>
+    <string name="harsk_rrAk">harsk_rrAk</string>
+    <string name="harsk_rrFav">Weapon</string>
+    <string-array name="harsk_rrskills">
+        <item><b>STRENGTH:</b> d6</item>
+        <item><b>DEXTERITY:</b> d8 \nRANGED: DEXTERITY +3</item>
+        <item><b>CONSTITUTION:</b> d12 \nFORTITUDE: CONSTITUTION +2</item>
+        <item><b>INTELLIGENCE:</b> d6</item>
+        <item><b>WISDOM:</b> d6 \nPERCEPTION: WISDOM +2\nSURVIVAL: WISDOM +2</item>
+        <item><b>CHARISMA:</b> d4</item>
+        <item><b>HAND SIZE</b> 5 □6</item>
+        <item><b>PROFICIENT WITH</b> Light Armors  Weapons</item>
+        <item>At the end of your turn, you may examine the top card (□ or bottom card) of your location deck.</item>
+        <item>You may recharge a card to add 1d4 (□+1)(□+2) to a combat check at another location.</item>
+    </string-array>
+    <string-array name="harsk_rrskillsPretxt">
+        <item><b>STRENGTH:</b> d6</item>
+        <item><b>DEXTERITY:</b> d8 \nRANGED: DEXTERITY +3</item>
+        <item><b>CONSTITUTION:</b> d12 \nFORTITUDE: CONSTITUTION +2</item>
+        <item><b>INTELLIGENCE:</b> d6</item>
+        <item><b>WISDOM:</b> d6 \nPERCEPTION: WISDOM +2\nSURVIVAL: WISDOM +2</item>
+        <item><b>CHARISMA:</b> d4</item>
+        <item><b>HAND SIZE:</b> 5 </item>
+        <item><b>PROFICIENT WITH:</b> Light Armors  Weapons</item>
+        <item>At the end of your turn, you may examine the top card of your location deck.</item>
+        <item>You may recharge a card to add 1d4 to a combat check at another location.</item>
+    </string-array>
+    <string-array name="harsk_rrskills1txt">
+        <item>+1</item>
+        <item>+1</item>
+        <item>+1</item>
+        <item>+1</item>
+        <item>+1</item>
+        <item>+1</item>
+        <item>6</item>
+        <item>-</item>
+        <item>or bottom card</item>
+        <item>+1</item>
+    </string-array>
+    <string-array name="harsk_rrskills2txt">
+        <item>+2</item>
+        <item>+2</item>
+        <item>+2</item>
+        <item>-</item>
+        <item>+2</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>+2</item>
+    </string-array>
+    <string-array name="harsk_rrskills3txt">
+        <item>+3</item>
+        <item>+3</item>
+        <item>+3</item>
+        <item>-</item>
+        <item>+3</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="harsk_rrskills4txt">
+        <item>-</item>
+        <item>+4</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="harsk_rrskills1Vis">
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>-</item>
+        <item>true</item>
+        <item>true</item>
+    </string-array>
+    <string-array name="harsk_rrskills2Vis">
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>-</item>
+        <item>true</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>true</item>
+    </string-array>
+    <string-array name="harsk_rrskills3Vis">
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>-</item>
+        <item>true</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="harsk_rrskills4Vis">
+        <item>-</item>
+        <item>true</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="harsk_rrrole1">
+        <item><b>HAND SIZE</b> 5 □6 □7</item>
+        <item><b>PROFICIENT WITH</b> Light Armors  Weapons</item>
+        <item>At the end of your turn, you may examine the top card (□ or bottom card) of your location deck.</item>
+        <item>You may recharge a card to add 1d4 (□+1)(□+2)(□+3)(□+4) to a combat check at another location.</item>
+        <item>□ When you start your turn with no cards in your hand, you may draw 1 (□2) card(s).</item>
+        <item>□ When you play a weapon with the Ranged trait, you may recharge it instead of discarding it.</item>
+        <item>□ You gain the skill Divine: Wisdom +1.</item>
+        <item>□ When you play a blessing to add to your Dexterity check, add d12 instead of you normal die.</item>
+    </string-array>
+    <string-array name="harsk_rrrole1Pretxt">
+        <item><b>HAND SIZE:</b> 5</item>
+        <item><b>PROFICIENT WITH:</b> Light Armors  Weapons</item>
+        <item>At the end of your turn, you may examine the top card of your location deck.</item>
+        <item>You may recharge a card to add 1d4 to a combat check at another location.</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="harsk_rrrole1cb1txt">
+        <item>6</item>
+        <item>-</item>
+        <item>or bottom card</item>
+        <item>+1</item>
+        <item>When you start your turn with no cards in your hand, you may draw 1 card.</item>
+        <item>When you play a weapon with the Ranged trait, you may recharge it instead of discarding it.</item>
+        <item>You gain the skill Divine: Wisdom +1.</item>
+        <item>When you play a blessing to add to your Dexterity check, add d12 instead of you normal die.</item>
+    </string-array>
+    <string-array name="harsk_rrrole1cb2txt">
+        <item>7</item>
+        <item>-</item>
+        <item>-</item>
+        <item>+2</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="harsk_rrrole1cb3txt">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>+3</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="harsk_rrrole1cb4txt">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>+4</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="harsk_rrrole1cb5txt">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>2 cards</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="harsk_rrrole1cb1Vis">
+        <item>true</item>
+        <item>false</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+    </string-array>
+    <string-array name="harsk_rrrole1cb2Vis">
+        <item>true</item>
+        <item>false</item>
+        <item>-</item>
+        <item>true</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="harsk_rrrole1cb3Vis">
+        <item>-</item>
+        <item>false</item>
+        <item>-</item>
+        <item>true</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="harsk_rrrole1cb4Vis">
+        <item>-</item>
+        <item>false</item>
+        <item>-</item>
+        <item>true</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="harsk_rrrole1cb5Vis">
+        <item>-</item>
+        <item>false</item>
+        <item>-</item>
+        <item>-</item>
+        <item>true</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+
+
+    <string-array name="harsk_rrrole2">
+        <item><b>HAND SIZE</b> 5 □6 □7</item>
+        <item><b>PROFICIENT WITH:</b> Light Armors  Weapons</item>
+        <item>At the end of your turn, you may examine the top card (□ or bottom card)(□ or both) of your location deck.</item>
+        <item>You may recharge a card to add 1d4 (□+1)(□+2)(□+3) to a combat check at another location.</item>
+        <item>□ Add 1d8 (□+1) to your check to defeat a bane with the Giant trait.</item>
+        <item>□ When you play an ally with the Animal trait, you may recharge it instead of discarding it.</item>
+        <item>□ You gain the skill Divine: Wisdom +1.</item>
+        <item>□ When you play a blessing to add to your Wisdom check, add d12 instead of you normal die.</item>
+    </string-array>
+
+    <string-array name="harsk_rrrole2Pretxt">
+        <item><b>HAND SIZE:</b> 5</item>
+        <item><b>PROFICIENT WITH:</b> Light Armors  Weapons</item>
+        <item>At the end of your turn, you may examine the top card of your location deck.</item>
+        <item>You may recharge a card to add 1d4 to a combat check at another location.</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="harsk_rrrole2cb1txt">
+        <item>6</item>
+        <item>-</item>
+        <item>or bottom card</item>
+        <item>+1</item>
+        <item>Add 1d8 to your check to defeat a bane with the Giant trait.</item>
+        <item>When you play an ally with the Animal trait, you may recharge it instead of discarding it.</item>
+        <item>You gain the skill Divine: Wisdom +1.</item>
+        <item>When you play a blessing to add to your Wisdom check, add d12 instead of you normal die.</item>
+    </string-array>
+    <string-array name="harsk_rrrole2cb2txt">
+        <item>7</item>
+        <item>-</item>
+        <item>or both</item>
+        <item>+2</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="harsk_rrrole2cb3txt">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>+3</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="harsk_rrrole2cb4txt">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="harsk_rrrole2cb5txt">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>+1</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="harsk_rrrole2cb1Vis">
+        <item>true</item>
+        <item>false</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+    </string-array>
+    <string-array name="harsk_rrrole2cb2Vis">
+        <item>true</item>
+        <item>false</item>
+        <item>true</item>
+        <item>true</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="harsk_rrrole2cb3Vis">
+        <item>-</item>
+        <item>false</item>
+        <item>-</item>
+        <item>true</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="harsk_rrrole2cb4Vis">
+        <item>-</item>
+        <item>false</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="harsk_rrrole2cb5Vis">
+        <item>-</item>
+        <item>false</item>
+        <item>-</item>
+        <item>-</item>
+        <item>true</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="harsk_rrcardscb1text">
+        <item>5</item>
+        <item>-</item>
+        <item>1</item>
+        <item>3</item>
+        <item>1</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="harsk_rrcardscb2text">
+        <item>6</item>
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>2</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="harsk_rrcardscb3text">
+        <item>-</item>
+        <item>2</item>
+        <item>-</item>
+        <item>5</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="harsk_rrcardscb4text">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>4</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="harsk_rrcardscb5text">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="harsk_rrcardscb2vis">
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+    </string-array>
+    <string-array name="harsk_rrcardscb3vis">
+        <item>-</item>
+        <item>true</item>
+        <item>-</item>
+        <item>true</item>
+        <item>true</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="harsk_rrcardscb4vis">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>true</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="harsk_rrcardscb5vis">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+
+
+
+    <!-- Kyra info -->
+    <string name="kyra_rrrole1"><b>KYRA (HEALER)</b></string>
+    <string name="kyra_rrrole2"><b>KYRA (EXORCIST)</b></string>
+    <string name="kyra_rrAk">kyra_rrAk</string>
+    <string name="kyra_rrFav">Blessing</string>
+    <string-array name="kyra_rrskills">
+        <item><b>STRENGTH:</b> d6 \nMELEE: STRENGTH +2</item>
+        <item><b>DEXTERITY:</b> d4</item>
+        <item><b>CONSTITUTION:</b> d6 \nFORTITUDE: CONSTITUTION +3</item>
+        <item><b>INTELLIGENCE:</b> d6</item>
+        <item><b>WISDOM:</b> d12 \nDIVINE: WISDOM +3 </item>
+        <item><b>CHARISMA:</b> d6</item>
+        <item><b>HAND SIZE</b> 5 □6</item>
+        <item><b>PROFICIENT WITH</b> Light Armors  Heavy Armors  □ Weapons</item>
+        <item>Instead of your first exploration on a turn, you may reveal a card with the Divine trait to choose a character at your location. Shuffle 1d4+1 (□+2) random cards from his discard pile into his deck, then discard the card you revealed.</item>
+        <item>Add 1d8 (□+1) with the Magic trait to your check to defeat a bane with the Undead trait.</item>
+    </string-array>
+    <string-array name="kyra_rrskillsPretxt">
+        <item><b>STRENGTH:</b> d6 \nMELEE: STRENGTH +2</item>
+        <item><b>DEXTERITY:</b> d4</item>
+        <item><b>CONSTITUTION:</b> d6 \nFORTITUDE: CONSTITUTION +3</item>
+        <item><b>INTELLIGENCE:</b> d6</item>
+        <item><b>WISDOM:</b> d12 \nDIVINE: WISDOM +3 </item>
+        <item><b>CHARISMA:</b> d6</item>
+        <item><b>HAND SIZE:</b> 5</item>
+        <item><b>PROFICIENT WITH:</b> Light Armors  Heavy Armors</item>
+        <item>Instead of your first exploration on a turn, you may reveal a card with the Divine trait to choose a character at your location. Shuffle 1d4+1random cards from his discard pile into his deck, then discard the card you revealed.</item>
+        <item>Add 1d8 with the Magic trait to your check to defeat a bane with the Undead trait.</item>
+    </string-array>
+    <string-array name="kyra_rrskills1txt">
+        <item>+1</item>
+        <item>+1</item>
+        <item>+1</item>
+        <item>+1</item>
+        <item>+1</item>
+        <item>+1</item>
+        <item>6</item>
+        <item>Weapons</item>
+        <item>+2</item>
+        <item>+2</item>
+    </string-array>
+    <string-array name="kyra_rrskills2txt">
+        <item>+2</item>
+        <item>-</item>
+        <item>+2</item>
+        <item>+2</item>
+        <item>+2</item>
+        <item>+2</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="kyra_rrskills3txt">
+        <item>+3</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>+3</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="kyra_rrskills4txt">
+        <item>+4</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>+4</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="kyra_rrskills1Vis">
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+    </string-array>
+    <string-array name="kyra_rrskills2Vis">
+        <item>true</item>
+        <item>-</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="kyra_rrskills3Vis">
+        <item>true</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>true</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="kyra_rrskills4Vis">
+        <item>true</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>true</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="kyra_rrrole1">
+        <item><b>HAND SIZE</b> 5 □6 □7 □8</item>
+        <item><b>PROFICIENT WITH</b> Light Armors  Heavy Armors  □ Weapons</item>
+        <item>Instead of your first exploration on a turn, you may reveal a card with the Divine trait to choose a character at your location. Shuffle 1d4+1 (□+2) (□+3) random cards from his discard pile into his deck, then discard the card you revealed (□ and you m ay draw a card).</item>
+        <item>Add 1d8 (□+1) with the Magic trait to your check to defeat a bane with the Undead trait.</item>
+        <item>□ Add 2 (□ 4) to your check to acquire a boon with the Divine trait.</item>
+        <item>□ When you play Blessing of Sarenrae, you may recharge it (□ or shuffle it into your deck) instead of discarding it.</item>
+    </string-array>
+    <string-array name="kyra_rrrole1Pretxt">
+        <item><b>HAND SIZE:</b> 5</item>
+        <item><b>PROFICIENT WITH:</b> Light Armors  Heavy Armors  </item>
+        <item>Instead of your first exploration on a turn, you may reveal a card with the Divine trait to choose a character at your location. Shuffle 1d4+1 random cards from his discard pile into his deck, then discard the card you revealed.</item>
+        <item>Add 1d8 with the Magic trait to your check to defeat a bane with the Undead trait.</item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="kyra_rrrole1cb1txt">
+        <item>6</item>
+        <item>Weapons</item>
+        <item>+2</item>
+        <item>+1</item>
+        <item>Add 2 to your check to acquire a boon with the Divine trait.</item>
+        <item>When you play Blessing of Sarenrae, you may recharge it instead of discarding it.</item>
+    </string-array>
+    <string-array name="kyra_rrrole1cb2txt">
+        <item>7</item>
+        <item>-</item>
+        <item>+3</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="kyra_rrrole1cb3txt">
+        <item>8</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="kyra_rrrole1cb4txt">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="kyra_rrrole1cb5txt">
+        <item>-</item>
+        <item>-</item>
+        <item>and you may draw a card</item>
+        <item>-</item>
+        <item>4</item>
+        <item>or shuffle it into your deck</item>
+    </string-array>
+    <string-array name="kyra_rrrole1cb1Vis">
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+    </string-array>
+    <string-array name="kyra_rrrole1cb2Vis">
+        <item>true</item>
+        <item>-</item>
+        <item>true</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="kyra_rrrole1cb3Vis">
+        <item>true</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="kyra_rrrole1cb4Vis">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="kyra_rrrole1cb5Vis">
+        <item>-</item>
+        <item>-</item>
+        <item>true</item>
+        <item>-</item>
+        <item>true</item>
+        <item>true</item>
+    </string-array>
+    <string-array name="kyra_rrrole2">
+        <item><b>HAND SIZE</b> 5 □6 □7</item>
+        <item><b>PROFICIENT WITH</b> Light Armors  Heavy Armors  □ Weapons</item>
+        <item>Instead of your first exploration on a turn, you may reveal a card with the Divine trait to choose a character at your location. Shuffle 1d4+1 (□+2) random cards from his discard pile into his deck, then discard the card you revealed (□ and you m ay draw a card).</item>
+        <item>Add 1d8 (□+1) with the Magic trait to your check to defeat a bane with the Undead (□ or the Outsider) trait.</item>
+        <item>□ Add 2 to your check to acquire an armor (□ or weapon).</item>
+        <item>□ When you play Blessing of Sarenrae, you may recharge it (□ or put it on top of your deck) instead of discarding it.</item>
+        <item>□ If you defeat a bane with the Undead (□ or Outsider) trait, you may shuffle 1 random card from your discard pile into your deck.</item>
+    </string-array>
+    <string-array name="kyra_rrrole2Pretxt">
+        <item><b>HAND SIZE</b> 5</item>
+        <item><b>PROFICIENT WITH:</b> Light Armors  Heavy Armors </item>
+        <item>Instead of your first exploration on a turn, you may reveal a card with the Divine trait to choose a character at your location. Shuffle 1d4+1 random cards from his discard pile into his deck, then discard the card you revealed.</item>
+        <item>Add 1d8 with the Magic trait to your check to defeat a bane with the Undead trait.</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="kyra_rrrole2cb1txt">
+        <item>6</item>
+        <item>Weapons</item>
+        <item>+2</item>
+        <item>+1</item>
+        <item>Add 2 to your check to acquire an armor</item>
+        <item>When you play Blessing of Sarenrae, you may recharge it instead of discarding it.</item>
+        <item>If you defeat a bane with the Undead trait, you may shuffle 1 random card from your discard pile into your deck.</item>
+    </string-array>
+    <string-array name="kyra_rrrole2cb2txt">
+        <item>7</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="kyra_rrrole2cb3txt">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="kyra_rrrole2cb4txt">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="kyra_rrrole2cb5txt">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>or Outsider trait</item>
+        <item>or weapon</item>
+        <item>or put it on top of your deck</item>
+        <item>or Outsider trait</item>
+    </string-array>
+    <string-array name="kyra_rrrole2cb1Vis">
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+    </string-array>
+    <string-array name="kyra_rrrole2cb2Vis">
+        <item>true</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="kyra_rrrole2cb3Vis">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="kyra_rrrole2cb4Vis">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="kyra_rrrole2cb5Vis">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+    </string-array>
+    <string-array name="kyra_rrcardscb1text">
+        <item>2</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>1</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="kyra_rrcardscb2text">
+        <item>3</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>2</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="kyra_rrcardscb3text">
+        <item>4</item>
+        <item>5</item>
+        <item>4</item>
+        <item>-</item>
+        <item>-</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="kyra_rrcardscb4text">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="kyra_rrcardscb5text">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="kyra_rrcardscb2vis">
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+    </string-array>
+    <string-array name="kyra_rrcardscb3vis">
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>-</item>
+        <item>-</item>
+        <item>true</item>
+    </string-array>
+    <string-array name="kyra_rrcardscb4vis">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="kyra_rrcardscb5vis">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <!-- lem rr-->
+
+    <string name="lem_rrrole1"><b>LEM (VIRTUOSO)</b></string>
+    <string name="lem_rrrole2"><b>LEM (CHARLATAN)</b></string>
+    <string-array name="lem_rrskills">
+        <item><b>STRENGTH:</b> d4</item>
+        <item><b>DEXTERITY:</b> d8</item>
+        <item><b>CONSTITUTION:</b> d6</item>
+        <item><b>INTELLIGENCE:</b> d6 \nKNOWLEDGE: INTELLIGENCE +3</item>
+        <item><b>WISDOM:</b> d6</item>
+        <item><b>CHARISMA:</b> d10 \nARCANE: CHARISMA +1 \nDIPLOMACY: CHARISMA +3 \nDIVINE: CHARISMA +1</item>
+        <item><b>HAND SIZE</b> 6</item>
+        <item><b>PROFICIENT WITH</b> □ Light Armors  □ Weapons</item>
+        <item>Once per check, you may recharge a card to add 1d4 (□+1)(□+2) to a check attempted by another character at your location.</item>
+        <item>At the start of your turn, you may exchange 1 card in your hand with 1 card of the same type in your discard pile.</item>
+    </string-array>
+    <string-array name="lem_rrrole1">
+        <item><b>HAND SIZE</b> 6 □7</item>
+        <item><b>PROFICIENT WITH</b> □ Light Armors  □ Weapons</item>
+        <item>Once per check, you may recharge a card to add 1d4 (□+1)(□+2)(□+3) to a check attempted by (□ you or) another character at your location.</item>
+        <item>At the start (□ or end) of your turn, you may exchange 1 card in your hand with 1 card of the same type in your discard pile.</item>
+        <item>□ Add 2 to your check to acquire an ally</item>
+        <item>□ Add 2 to your check to recharge (□ or acquire) a spell.</item>
+        <item>□ When you play Blessing of Shelyn, add d12 instead of the normal die.</item>
+    </string-array>
+    <string-array name="lem_rrrole2">
+        <item><b>HAND SIZE</b> 6 □7 □8</item>
+        <item><b>PROFICIENT WITH</b> □ Light Armors  □ Weapons</item>
+        <item>Once per check, you may recharge a card to add 1d4 (□+1)(□+2)(□+3) to a check attempted by another character at your location.</item>
+        <item>At the start of your turn, you may exchange 1 card in your hand with 1 card of the same type in your discard pile.</item>
+        <item>□ Add 2 to your check to acquire an ally (□ or defeat a henchman)(□ or villain).</item>
+        <item>□ You automatically succeed at your check to recharge a card with the Mental trait.</item>
+        <item>□ When you play Blessing of Shelyn, add d12 instead of the normal die.</item>
+    </string-array>
+    <string name="lini_rrrole1"><b>LINI (SHAPESHIFTER)</b></string>
+    <string name="lini_rrrole2"><b>LINI (WILD WARDEN)</b></string>
+    <string-array name="lini_rrskills">
+        <item><b>STRENGTH:</b> d4</item>
+        <item><b>DEXTERITY:</b> d6</item>
+        <item><b>CONSTITUTION:</b> d8</item>
+        <item><b>INTELLIGENCE:</b> d6 \nKNOWLEDGE: INTELLIGENCE +3</item>
+        <item><b>WISDOM:</b> d10 \nDIVINE: WISDOM +1 \nSURVIVAL: WISDOM +2</item>
+        <item><b>CHARISMA:</b> d8</item>
+        <item><b>HAND SIZE</b> 5</item>
+        <item><b>PROFICIENT WITH</b> □ Light Armors  Weapons</item>
+        <item>When you play an ally with the Animal trait, you may recharge it instead of discarding it.</item>
+        <item>You may reveal an ally with the Animal trait to add 1d4(□+1)(□+2) to your check.</item>
+        <item>You may discard a card to roll d10 instead of your Strength or Dexterity die for any check.</item>
+    </string-array>
+    <string-array name="lini_rrrole1">
+        <item><b>HAND SIZE</b> 5 □6</item>
+        <item><b>PROFICIENT WITH</b> □ Light Armors  Weapons</item>
+        <item>When you play an ally with the Animal trait, you may recharge it instead of discarding it.</item>
+        <item>You may reveal an ally with the Animal trait to add 1d4(□+1)(□+2)(□+3) to your check.</item>
+        <item>You may discard a card to roll d10 (□+1)(□+2)(□ and you may add the Fire trait) instead of your Strength or Dexterity die for any check.</item>
+        <item>□ Add 2 (□4) to your check to acquire an ally with the Animal trait.</item>
+        <item>□ When you play a blessing to add to your Wisdom check, add d12 instead of the normal die.</item>
+    </string-array>
+    <string-array name="lini_rrrole2">
+        <item><b>HAND SIZE</b> 5 □6 □7</item>
+        <item><b>PROFICIENT WITH</b> □ Light Armors  Weapons</item>
+        <item>When you play an ally with the Animal trait, you may recharge it instead of discarding it.</item>
+        <item>You may reveal an ally with the Animal trait to add 1d4(□+1)(□+2)(□+3)(□+4) to your check.</item>
+        <item>You may discard a card to roll d10 instead of your Strength or Dexterity die for any check.</item>
+        <item>□ Add 2 (□4) to your Divine check when playing or recharging a spell.</item>
+        <item>□ Add 1d8 with the Magic trait to your check to defeat a bane with the Animal trait.</item>
+        <item>□ When you play a blessing to add to your Wisdom check, add d12 instead of the normal die.</item>
+    </string-array>
+    <string name="merisiel_rrrole1"><b>MERISIEL (ACROBAT)</b></string>
+    <string name="merisiel_rrrole2"><b>MERISIEL (THIEF)</b></string>
+    <string-array name="merisiel_rrskills">
+        <item><b>STRENGTH:</b> d8</item>
+        <item><b>DEXTERITY:</b> d12 \nACROBATICS: DEXTERITY +2 \nDISABLE: DEXTERITY +2 \nSTEALTH: DEXTERITY +2</item>
+        <item><b>CONSTITUTION:</b> d6</item>
+        <item><b>INTELLIGENCE:</b> d4</item>
+        <item><b>WISDOM:</b> d6 \nPERCEPTION: WISDOM +3 </item>
+        <item><b>CHARISMA:</b> d6</item>
+        <item><b>HAND SIZE</b> 5 □6</item>
+        <item><b>PROFICIENT WITH</b> Light Armors  □ Weapons</item>
+        <item>You may evade your encounter.</item>
+        <item>If you are the only character at your location, you may recharge a card to add 1d6 (□+1)(□+2) to your combat check, or discard it to add an additional 1d6.</item>
+    </string-array>
+    <string-array name="merisiel_rrrole1">
+        <item><b>HAND SIZE</b> 5 □6 □7</item>
+        <item><b>PROFICIENT WITH</b> Light Armors  □ Weapons</item>
+        <item>You may evade your encounter (□ and may put the card on top of the deck).</item>
+        <item>If you are the only character at your location, you may recharge a card to add 1d6 (□+1)(□+2)(□+3) to your combat check, or discard it to add an additional 1d6.</item>
+        <item>□ Add 2 to your noncombat check to defeat a barrier (□ or close a location).</item>
+        <item>□ Add 2 (□ 4) to your check to acquire an item.</item>
+        <item>When you play a blessing to add to your Dexterity check, you may recharge it instead of discarding it.</item>
+    </string-array>
+    <string-array name="merisiel_rrrole2">
+        <item><b>HAND SIZE</b> 5 □6</item>
+        <item><b>PROFICIENT WITH</b> Light Armors  □ Weapons</item>
+        <item>You may evade your encounter.</item>
+        <item>If you are the only character at your location, you may recharge a card to add 1d6 (□+1)(□+2)(□+3)(□+4) to your combat check, or discard it to add an additional 1d6.</item>
+        <item>□ Add 2 to your noncombat check to close a location.</item>
+        <item>□ Add 2 (□ 3)(□ 4) to your check to acquire an armor, item, or weapon.</item>
+        <item>□ When you play a blessing to add to your Dexterity check, you may recharge it instead of discarding it.</item>
+        <item>□ You may use Charisma in place of any skill on any check to recharge an armor, item, or weapon with the Magic trait.</item>
+    </string-array>
+    <string name="sajan_rrrole1"><b>SAJAN (DRUNKEN MASTER)</b></string>
+    <string name="sajan_rrrole2"><b>SAJAN (ZEN ARCHER)</b></string>
+    <string-array name="sajan_rrskills">
+        <item><b>STRENGTH:</b> d6</item>
+        <item><b>DEXTERITY:</b> d10 \nACROBATICS: DEXTERITY +2</item>
+        <item><b>CONSTITUTION:</b> d6 \nFORTITUDE: CONSTITUTION +2</item>
+        <item><b>INTELLIGENCE:</b> d6</item>
+        <item><b>WISDOM:</b> d8</item>
+        <item><b>CHARISMA:</b> d6</item>
+        <item><b>HAND SIZE</b> 4 □5 □6</item>
+        <item>For your combat check, you may roll your Dexterity die (□ and you may add the Magic trait)(□ and/or the Fire trait); you may not play a weapon on the check.</item>
+        <item>You may play any number of blessings on your combat check; recharge them instead of discarding them.</item>
+    </string-array>
+    <string-array name="sajan_rrrole1">
+        <item><b>HAND SIZE</b> 4 □5 □6 □7</item>
+        <item><b>PROFICIENT WITH</b> □ Weapons</item>
+        <item>For your combat check, you may roll your Dexterity die (□ and you may add the Magic trait)(□ and/or the Fire trait); you may not play a weapon on the check.</item>
+        <item>You may play any number of blessings on your combat check; recharge them instead of discarding them.</item>
+        <item>□ When dealt damage other than Combat damage, reduce that damage by 1 (□2)(□3).</item>
+        <item>□ When you play a boon with the Liquid trait, succeed at a Fortitude 6 check to recharge it instead of banishing it.</item>
+        <item>□ Add 6 to your check to acquire a boon with the Liquid trait.</item>
+        <item>□ At the start of your turn, you must draw 1 card.</item>
+    </string-array>
+    <string-array name="sajan_rrrole2">
+        <item><b>HAND SIZE</b> 4 □5 □6 □7</item>
+        <item><b>PROFICIENT WITH</b> □ Weapons</item>
+        <item>For your combat check, you may roll your Dexterity die (□ and you may add the Magic trait)(□ and/or the Fire trait); you may not play a weapon on the check.</item>
+        <item>You may play any number of blessings on your combat check; recharge them instead of discarding them.</item>
+        <item>□ When dealt damage other than Combat damage, reduce that damage by 1 (□2).</item>
+        <item>□ When you play a weapon with the Ranged trait, you may recharge it instead of discarding it.</item>
+        <item>□ Add 2 (□4) to your check to acquire a boon with the Ranged trait.</item>
+        <item>□ When you start your turn with no cards in your hand, you may draw 1 card.</item>
+    </string-array>
+    <string name="seelah_rrrole1"><b>SEELAH (CRUSADER)</b></string>
+    <string name="seelah_rrrole2"><b>SEELAH (HOSPITALER)</b></string>
+    <string-array name="seelah_rrskills">
+        <item><b>STRENGTH:</b> d8 \nMELEE: STRENGTH +2</item>
+        <item><b>DEXTERITY:</b> d4</item>
+        <item><b>CONSTITUTION:</b> d8</item>
+        <item><b>INTELLIGENCE:</b> d4</item>
+        <item><b>WISDOM:</b> d8 \nDIVINE: WISDOM +2</item>
+        <item><b>CHARISMA:</b> d10</item>
+        <item><b>HAND SIZE</b> 4 □5</item>
+        <item><b>PROFICIENT WITH</b> Light Armors  Heavy Armors  Weapons</item>
+        <item>You may discard the top card of your deck to add 1d6 (□+1) to your check. If the top card was a blessing(□ or spell), recharge it instead of discarding it.</item>
+        <item>You may examine the top card of your location deck at the start (□ or end) of your turn. If it\'s a boon, put it on the bottom of the deck.</item>
+    </string-array>
+    <string-array name="seelah_rrrole1">
+        <item><b>HAND SIZE</b> 4 □5 □6</item>
+        <item><b>PROFICIENT WITH</b> Light Armors  Heavy Armors  Weapons</item>
+        <item>You may discard the top card of your deck to add 1d6 (□+1)(□+2)(□+3) to your check. If the top card was a blessing(□ or spell), recharge it instead of discarding it.</item>
+        <item>You may examine the top card of your location deck at the start (□ or end) of your turn. If it\'s a boon, put it on the bottom (□ or underneath the top card) of the deck.</item>
+        <item>□ When another character at your location is dealt Combat damage, reduce that damage by 1.</item>
+        <item>□ Add 1d8 with the Magic trait to your check to defeat a bane with the Undead trait.</item>
+        <item>□ When you play Blessing Iomedae, you may recharge it (□ or shuffle it into your deck) instead of discarding it.</item>
+    </string-array>
+    <string-array name="seelah_rrrole2">
+        <item><b>HAND SIZE</b> 4 □5 □6 □7</item>
+        <item><b>PROFICIENT WITH</b> Light Armors  Heavy Armors  Weapons</item>
+        <item>You may discard the top card of your deck to add 1d6 (□+1)(□+2)(□+3) to your check. If the top card was a blessing(□ or spell), recharge it instead of discarding it.</item>
+        <item>You may examine the top card of your location deck at the start (□ or end) of your turn. If it\'s a boon, put it on the bottom (□ or underneath the top card) of the deck.</item>
+        <item>□ During your turn, you may bury a Divine card and choose a character at your location to shuffle 1d4+1 random cards from his discard pile into his deck.</item>
+        <item>□ When you play Blessing Iomedae, you may recharge it (□ or shuffle it into your deck) instead of discarding it.</item>
+    </string-array>
+    <string name="seoni_rrrole1"><b>SEONI (ABYSSAL SORCERER)</b></string>
+    <string name="seoni_rrrole2"><b>SEONI (CELESTIAL SORCERER)</b></string>
+    <string-array name="seoni_rrskills">
+        <item><b>STRENGTH:</b> d4</item>
+        <item><b>DEXTERITY:</b> d8</item>
+        <item><b>CONSTITUTION:</b> d6</item>
+        <item><b>INTELLIGENCE:</b> d6</item>
+        <item><b>WISDOM:</b> d6</item>
+        <item><b>CHARISMA:</b> d12 \nDIPLOMACY: CHARISMA +2 \nARCANE: CHARISMA +2</item>
+        <item><b>HAND SIZE</b> 6 □7</item>
+        <item>For your combat check, you may discard a card to roll your Arcane die + 1d6 (□+1)(□+2) with the Attack, Fire, and Magic traits. This counts as playing a spell.</item>
+        <item>You automatically succeed at your check to recharge a spell (□ or item) with the Arcane trait.</item>
+    </string-array>
+    <string-array name="seoni_rrrole1">
+        <item><b>HAND SIZE</b> 6 □7</item>
+        <item>For your combat check, you may discard a card to roll your Arcane die + 1d6 (□+1)(□+2)(□+3)(□+4) with the Fire (□ or Acid) trait and the Attack and Magic traits. This counts as playing a spell.</item>
+        <item>You automatically succeed at your check to recharge a spell (□ or item) with the Arcane trait.</item>
+        <item>□ Reduce Fire (□ and Acid and Cold) damage dealt to you by 1 (□2)</item>
+        <item>□ When you play Blessing of Pharasma, add d12 instead of the normal die.</item>
+        <item>□ At the start of your turn, you may banish an ally to draw 3 cards.</item>
+    </string-array>
+    <string-array name="seoni_rrrole2">
+        <item><b>HAND SIZE</b> 6 □7</item>
+        <item>For your combat check, you may discard a card to roll your Arcane die + 1d6 (□+1)(□+2)(□+3)(□+4) with the Fire (□ or Acid) trait and the Attack and Magic traits. This counts as playing a spell.</item>
+        <item>You automatically succeed at your check to recharge a spell (□ or item) with the Arcane trait.</item>
+        <item>□ If you would fail a check by 1, you may bury a card to succeed.</item>
+        <item>□ Reduce Fire (□ and Electricity) damage dealt to you by 1 (□ 2).</item>
+        <item>□ When you play Blessing of Pharasma, add d12 instead of the normal die.</item>
+    </string-array>
+    <string name="valeros_rrrole1"><b>VALEROS (GUARDIAN)</b></string>
+    <string name="valeros_rrrole2"><b>VALEROS (WEAPON MASTER)</b></string>
+    <string-array name="valeros_rrskills">
+        <item><b>STRENGTH:</b> d10 \nMELEE: STRENGTH +3</item>
+        <item><b>DEXTERITY:</b> d8</item>
+        <item><b>CONSTITUTION:</b> d8</item>
+        <item><b>INTELLIGENCE:</b> d6</item>
+        <item><b>WISDOM:</b> d4</item>
+        <item><b>CHARISMA:</b> d6 \nDIPLOMACY: CHARISMA +2</item>
+        <item><b>HAND SIZE</b> 4 □5 □6</item>
+        <item><b>PROFICIENT WITH</b> Light Armors  Heavy Armors  Weapons</item>
+        <item>Add 1d4(□+1)(□+2) to another character\'s combat check at your location.</item>
+        <item>When you play a weapon, you may recharge it instead of discarding it.</item>
+    </string-array>
+    <string-array name="valeros_rrrole1">
+        <item><b>HAND SIZE</b> 4 □5 □6 □7</item>
+        <item><b>PROFICIENT WITH</b> Light Armors  Heavy Armors  Weapons</item>
+        <item>Add 1d4(□+1)(□+2)(□+3) to another character\'s combat check at your location.</item>
+        <item>When you play a weapon (□ or armor), you may recharge it instead of discarding it.</item>
+        <item>□ When another character at your location is dealt Combat damage, reduce that damage by 1 (□2).</item>
+        <item>□ Add 2 (□4) to your check to acquire an armor.</item>
+        <item>□ When you play a blessing to add to your Constitution check, add d12 instead of the normal die.</item>
+    </string-array>
+    <string-array name="valeros_rrrole2">
+        <item><b>HAND SIZE</b> 4 □5 □6</item>
+        <item><b>PROFICIENT WITH</b> Light Armors  Heavy Armors  Weapons</item>
+        <item>Add 1d4(□+1)(□+2)(□+3)(□+4)(□+5) to another character\'s combat check at your location.</item>
+        <item>When you play a weapon, you may recharge it (□ or shuffle it into your deck) instead of discarding it.</item>
+        <item>□ You may use Melee in play of Ranged when using a weapon with the Ranged trait.</item>
+        <item>□ Add 2 (□4) to your check to acquire a weapon.</item>
+        <item>□ When you play a blessing to add to your Strength check, add d12 instead of the normal die.</item>
+    </string-array>
+    <string name="alahazra_ssrole1"><b>ALAHAZRA (STARGAZER)</b></string>
+    <string name="alahazra_ssrole2"><b>ALAHAZRA (TEMPEST)</b></string>
+    <string-array name="alahazra_ssskills">
+        <item><b>STRENGTH:</b> d4</item>
+        <item><b>DEXTERITY:</b> d4</item>
+        <item><b>CONSTITUTION:</b> d6</item>
+        <item><b>INTELLIGENCE:</b> d6 \nKNOWLEDGE: INTELLIGENCE +2</item>
+        <item><b>WISDOM:</b> d6</item>
+        <item><b>CHARISMA:</b> d12 \nDIVINE: CHARISMA +2</item>
+        <item><b>HAND SIZE</b>6 □7</item>
+        <item><b>PROFICIENT WITH</b> □ Light Armors</item>
+        <item>You may recharge a card that has the Divine trait or examine the top card of any location deck (□ or the blessings deck or any character deck).</item>
+        <item>At the end of your turn, you may discard a card that has the Divine trait to add a card that has the Divine trait from your discard pile to your hand.</item>
+        <item>If your combat check has the Attack trait, add 2 to it. (□ You may also add the Fire trait.)</item>
+    </string-array>
+    <string-array name="alahazra_ssrole1">
+        <item><b>HAND SIZE</b> 6 □7 □8</item>
+        <item><b>PROFICIENT WITH</b> □ Light Armors</item>
+        <item>You may recharge a card that has the Divine trait or examine the top card of any location deck (□ or the blessings deck or any character deck).</item>
+        <item>□ When you use the above power to examine a card from a location deck on your turn, and it is a boon, you m ay encounter it.</item>
+        <item>□ When you use the above power to examine a card from a character deck, that character may recharge it.</item>
+        <item>At the end of your turn, you may discard a card that has the Divine trait(□ or any card) to add a card that has the Divine trait from your discard pile to your hand(□ or to allow a character at your location to add a card from his discard pile to his hand).</item>
+        <item>If your combat check has the Attack trait, add 2 (□3) to it. (□ You may also add the Fire trait.)</item>
+        <item>□ You gain the skill Perception (□ and Survival): Charisma +2.</item>
+    </string-array>
+    <string-array name="alahazra_ssrole2">
+        <item><b>HAND SIZE</b> 6 □7 □8</item>
+        <item><b>PROFICIENT WITH</b> □ Light Armors</item>
+        <item>You may recharge a card that has the Divine trait or examine the top card of any location deck (□ or the blessings deck or any character deck).</item>
+        <item>At the end of your turn, you may discard a card that has the Divine trait to add a card that has the Divine trait from your discard pile to your hand.</item>
+        <item>If your combat check has the Attack trait, add 2 (□3)(□4) to it. (□ You may also add the (□ Electricity or) Fire trait.)</item>
+        <item>□ Add 2(□4) to your check to recharge (□ or acquire) a spell that has the Attack trait.</item>
+        <item>□ When you play a spell that has the Attack trait, you gain the skill Arcane: Charisma +2 until the end of the encounter.</item>
+    </string-array>
+    <string name="damiel_ssrole1"><b>DAMIEL (GRENADIER)</b></string>
+    <string name="damiel_ssrole2"><b>DAMIEL (CHIRURGEON)</b></string>
+    <string-array name="damiel_ssskills">
+        <item><b>STRENGTH:</b> d6</item>
+        <item><b>DEXTERITY:</b> d8 \nDISABLE: DEXTERITY +2 \nRANGED: DEXTERITY +2</item>
+        <item><b>CONSTITUTION:</b> d8</item>
+        <item><b>INTELLIGENCE:</b> d10 \nCRAFT: INTELLIGENCE +3</item>
+        <item><b>WISDOM:</b> d6</item>
+        <item><b>CHARISMA:</b> d4</item>
+        <item><b>HAND SIZE</b> 6 □7</item>
+        <item><b>PROFICIENT WITH</b> Light Armors  □ Weapons</item>
+        <item>You may discard a card to add 1d6 (□+1)(□+2) and the Poison or Fire trait to any combat check at your location; if the discarded card has the Alchemical trait, add an additional 1d6.</item>
+        <item>When you play a card that has the Alchemical trait and would banish it, you may recharge it instead.</item>
+        <item>You gain the skills Arcane and Divine equal to your Craft skill while you play or when you would banish a spell that does not have the Attack trait</item>
+    </string-array>
+    <string-array name="damiel_ssrole1">
+        <item><b>HAND SIZE</b> 6 □7 □8</item>
+        <item><b>PROFICIENT WITH</b> Light Armors □ Heavy Armors □ Weapons</item>
+        <item>You may discard a card to add 1d6 (□+1)(□+2)(□+3) and the Poison or Fire (□ or Acid, Cold, Electricity, or Mental) trait to any combat check at your location; if the discarded card has the Alchemical trait, add an additional 1d6(□ 1d12).</item>
+        <item>When you play a card that has the Alchemical trait and would banish it, you may recharge it instead.</item>
+        <item>You gain the skills Arcane and Divine equal to your Craft skill while you play or when you would banish a spell that does not have the Attack trait</item>
+        <item>□ When you acquire a boon that has the Alchemical or Liquid (□ or Firearm) trait, you may immediately explore again.</item>
+        <item>□ When you succeed at a Craft check, you may examine the top card of your deck; if it is an item, you may add it to your hand.</item>
+    </string-array>
+    <string-array name="damiel_ssrole2">
+        <item><b>HAND SIZE</b> 6 □7 □8</item>
+        <item><b>PROFICIENT WITH</b> Light Armors □ Heavy Armors □ Weapons</item>
+        <item>You may discard a card to add 1d6 (□+1)(□+2) and the Poison or Fire trait to any combat check at your location; if the discarded card has the Alchemical (□ or Healing) trait, add an additional 1d6.</item>
+        <item>When you play a card that has the Alchemical trait and would banish it, you may recharge it instead.</item>
+        <item>You gain the skills Arcane and Divine equal to your Craft skill while you play or when you would banish a spell that does not have the Attack trait</item>
+        <item>□ When you acquire a boon that has the Alchemical or Liquid (□ or Healing) (□ or Fire or Poison) trait, you may immediately explore again.</item>
+        <item>□ You may recharge an item that has the Alchemical trait to add 1d4 to your check.</item>
+        <item>□ When you reset your hand, you may discard any number of cards to increase your hand size by that number until the end of your turn.</item>
+    </string-array>
+    <string name="feiya_ssrole1"><b>FEIYA (SEA WITCH)</b></string>
+    <string name="feiya_ssrole2"><b>FEIYA (HEXER)</b></string>
+    <string-array name="feiya_ssskills">
+        <item><b>STRENGTH:</b> d6</item>
+        <item><b>DEXTERITY:</b> d4</item>
+        <item><b>CONSTITUTION:</b> d6</item>
+        <item><b>INTELLIGENCE:</b> d12 \nARCANE: INTELLIGENCE +3 \nCRAFT: INTELLIGENCE +2 \nKNOWLEDGE: INTELLIGENCE +2</item>
+        <item><b>WISDOM:</b> d6</item>
+        <item><b>CHARISMA:</b> d8</item>
+        <item><b>HAND SIZE</b> 6 □7 □8</item>
+        <item>When any character at your location attempts a check to acquire a spell or defeat a monster (□ or barrier), you may recharge a card to reduce the difficulty of that check by 1 (□ 2) plus the adventure deck number of the recharged card, if any.</item>
+        <item>You may discard an ally that has the Animal trait to return a spell from your discard pile to your hand.</item>
+    </string-array>
+    <string-array name="feiya_ssrole1">
+        <item><b>HAND SIZE</b> 6 □7 □8 □9</item>
+        <item>When any character at your location attempts a check to acquire a spell or defeat a monster (□ or barrier), you may recharge a card to reduce the difficulty of that check by 1 (□ 2) plus the adventure deck number of the recharged card, if any.</item>
+        <item>You may discard(□ or recharge) an ally that has the Animal trait to return a spell from your discard pile to your hand.</item>
+        <item>□ You may discard a card to evade a bane that has the Aquatic trait (□ and you may put the bane on top of the deck).</item>
+        <item>□ You may recharge a card to add 2d4 to your Fortitude (□ or Survival) check.</item>
+        <item>□ When you close a location, you may move.</item>
+        <item>□ When you play Blessing of Hshurha, or you play any blessing on any check to defeat a bane that has the Aquatic trait, you may recharge it instead of discarding it.</item>
+    </string-array>
+    <string-array name="feiya_ssrole2">
+        <item><b>HAND SIZE</b> 6 □7 □8 □9</item>
+        <item>When any character at your location attempts a check to acquire a spell or defeat a monster (□ or barrier), you may recharge a card to reduce the difficulty of that check by 1 (□ 2)(□ 3) plus the adventure deck number of the recharged card, if any.</item>
+        <item>You may discard an ally that has the Animal trait (□ or any ally) to return a spell from your discard pile to your hand.</item>
+        <item>□ When you would shuffle a non-henchman, non-villain monster you encountered into a location deck, you may exchange it for a random monster from the box.</item>
+        <item>□ When you succeed at a Craft check (□ or play a spell that has the Arcane trait), you may examine the top card of your deck; if it’s a spell (□ or ally), you may add it to your hand.</item>
+        <item>□ When you play Blessing of Pharasma, or you play any blessing on any check to acquire an ally, you may recharge it instead of discarding it.</item>
+    </string-array>
+    <string name="jirelle_ssrole1"><b>JIRELLE (PIRATE QUEEN)</b></string>
+    <string name="jirelle_ssrole2"><b>JIRELLE (DUELIST)</b></string>
+    <string-array name="jirelle_ssskills">
+        <item><b>STRENGTH:</b> d6</item>
+        <item><b>DEXTERITY:</b> d10 \nACROBATICS: DEXTERITY +1</item>
+        <item><b>CONSTITUTION:</b> d6 \nFORTITUDE: CONSTITUTION +2</item>
+        <item><b>INTELLIGENCE:</b> d4</item>
+        <item><b>WISDOM:</b> d8 \nSURVIVAL: WISDOM +3 </item>
+        <item><b>CHARISMA:</b> d8</item>
+        <item><b>HAND SIZE</b> 5 □6 □7</item>
+        <item><b>PROFICIENT WITH</b> Light Armors  Weapons</item>
+        <item>For your check that has or is against a card that has the Finesse trait, you gain the skill Melee: Dexterity +2.</item>
+        <item>If you check has the Swashbuckling trait (□ or is a check to defeat a ship), you may reroll 1 die (□ or 2 dice) on your check; you must take the second result.</item>
+        <item>Reduce Structural damage to your ship by 1.</item>
+    </string-array>
+    <string-array name="jirelle_ssrole1">
+        <item><b>HAND SIZE</b> 5 □6 □7 □8</item>
+        <item><b>PROFICIENT WITH</b> Light Armors  Weapons</item>
+        <item>For your check that has or is against a card that has the Finesse trait, you gain the skill Melee: Dexterity +2.</item>
+        <item>If you check has the Swashbuckling trait (□ or is a check to defeat a ship), you may reroll 1 die (□ or 2 dice) on your check; you must take the second result.</item>
+        <item>Reduce Structural damage to your ship by 1 (□2).</item>
+        <item>□ You gain the skill Diplomacy (□ and Craft): Charisma +3.</item>
+        <item>□ When you acquire a card that has the Pirate or Swashbuckling trait, you may immediately explore again.</item>
+        <item>□ You may reveal a card that has the Swashbuckling trait to add the Swashbuckling trait to your check.</item>
+        <item>□ If you are on a ship, you (□ or another character on the ship) may move at the end of that character\'s turn.</item>
+    </string-array>
+    <string-array name="jirelle_ssrole2">
+        <item><b>HAND SIZE</b> 5 □6 □7 □8</item>
+        <item><b>PROFICIENT WITH</b> Light Armors  Weapons</item>
+        <item>For your check that has or is against a card that has the Finesse trait, you gain the skill Melee: Dexterity +2 (□ +3).</item>
+        <item>If you check has the Swashbuckling trait (□ or is a check to defeat a ship), you may reroll 1 die (□ or 2 dice) on your check; you must take the second result.</item>
+        <item>Reduce Structural damage to your ship by 1.</item>
+        <item>□ When you defeat a monster on your turn, and your check to defeat has the Swashbuckling trait, you may discard (□ or recharge) a card to immediately explore.</item>
+        <item>□ When you acquire a card that has the Finesse or Ranged trait, you may immediately recharge it to draw a card.</item>
+        <item>□ You may recharge an ally to recharge a random card (□ or a weapon of your choice) from your discard pile.</item>
+        <item>□ If any die rolled on your check is an 8 or higher, roll 1d4 and add it to the result.</item>
+    </string-array>
+    <string name="lem_ssrole1"><b>LEM (SEA SINGER)</b></string>
+    <string name="lem_ssrole2"><b>LEM (FREEBOOTER)</b></string>
+    <string-array name="lem_ssskills">
+        <item><b>STRENGTH:</b> d12 \nMELEE: STRENGTH +2</item>
+        <item><b>DEXTERITY:</b> d6</item>
+        <item><b>CONSTITUTION:</b> d8</item>
+        <item><b>INTELLIGENCE:</b> d4</item>
+        <item><b>WISDOM:</b> d6 \nSURVIVAL: WISDOM +3 </item>
+        <item><b>CHARISMA:</b> d6</item>
+        <item><b>HAND SIZE</b> 5 □6</item>
+        <item><b>PROFICIENT WITH</b> □ Light Armors  Weapons</item>
+        <item>You may recharge a card to add 1d4 (□+1)(□+2) to any check by a character at your location.</item>
+        <item>When you would recharge a card, you may shuffle it into your deck instead.</item>
+        <item>For your check that has or is against a card that has the Finesse trait, you gain the skill Melee: Dexterity +1.</item>
+    </string-array>
+    <string-array name="lem_ssrole1">
+        <item><b>HAND SIZE</b> 5 □6 □7</item>
+        <item><b>PROFICIENT WITH</b> □ Light Armors  Weapons</item>
+        <item>You may recharge a card to add 1d4 (□+1)(□+2)(□+3) to any check by a character at your location.</item>
+        <item>When you would recharge a card, you may shuffle it into your deck instead.</item>
+        <item>For your check that has or is against a card that has the Finesse trait, you gain the skill Melee: Dexterity +1.</item>
+        <item>□ Add 1d4(□ 2d4)(□ 3d4) to your non-combat check to defeat a bane(□ or a ship).</item>
+        <item>□ For your combat check against a bane that has the Aquatic trait, you may use your Diplomacy skill + 1d6 and add the Magic and Mental traits; you may additionally discard a card to add another 1d8. This counts as playing a spell.</item>
+        <item>□ When you roll on the Plunder Table, you may add or subtract 1 from the result.</item>
+    </string-array>
+    <string-array name="lem_ssrole2">
+        <item><b>HAND SIZE</b> 5 □6 □7</item>
+        <item><b>PROFICIENT WITH</b> □ Light Armors  Weapons</item>
+        <item>You may recharge a card to add 1d4 (□+1)(□+2)(□+3) to any check by a character at your location.</item>
+        <item>When you would recharge a card, you may shuffle it into your deck instead.</item>
+        <item>For your check that has or is against a card that has the Finesse trait, you gain the skill Melee: Dexterity +1.</item>
+        <item>□ For your check that has or is against a card that has the Firearm trait, gain the skill Ranged: Dexterity +2 until the end of the encounter.</item>
+        <item>□ When you encounter a bane that has the Task (□ or Pirate) trait (□ or a ship), you may recharge any number of allies; for each ally recharged, add 1d6 to the check to defeat the bane.</item>
+        <item>□ When you play a blessing on any check that has the Swashbuckling (□ or Firearm) trait, add a d12 instead of the normal die.</item>
+    </string-array>
+    <string name="lini_ssrole1"><b>LINI (FERAL DRUID)</b></string>
+    <string name="lini_ssrole2"><b>LINI (AQUAMANCER)</b></string>
+    <string-array name="lini_ssskills">
+        <item><b>STRENGTH:</b> d4</item>
+        <item><b>DEXTERITY:</b> d6</item>
+        <item><b>CONSTITUTION:</b> d8 \nFORTITUDE: CONSTITUTION +2</item>
+        <item><b>INTELLIGENCE:</b> d6</item>
+        <item><b>WISDOM:</b> d10 \nDIVINE: WISDOM +2 \nSURVIVAL: WISDOM +2</item>
+        <item><b>CHARISMA:</b> d8</item>
+        <item><b>HAND SIZE</b> 5 □6</item>
+        <item><b>PROFICIENT WITH</b> □ Light Armors  □ Weapons</item>
+        <item>When you play an ally that has the Animal trait, if you would recharge, discard, or bury it for its power, you may instead shuffle it into your deck (□ or put it on top of your deck).</item>
+        <item>You may discard a card to use a d12 for your Strength or Dexterity die; if the check is against a card that has the Animal or Aquatic trait, recharge the card instead.</item>
+    </string-array>
+    <string-array name="line_ssrole1">
+        <item><b>HAND SIZE</b> 5 □6 □7</item>
+        <item><b>PROFICIENT WITH</b> □ Light Armors  □ Weapons</item>
+        <item>When you play an ally that has the Animal trait, if you would recharge, discard, or bury it for its power, you may instead shuffle it into your deck (□ or put it on top of your deck).</item>
+        <item>You may discard a card to use a d12 for your Strength or Dexterity (□ or Constitution) die; if the check is against a card that has the Animal or Aquatic trait, recharge the card instead.</item>
+        <item>□ For your combat check, you may reveal a card that has the Divine trait to use your Strength skill + 1d8 and add the Magic and Melee (□ and Fire, Cold, or Electricity) traits; you may not play a weapon on the check.</item>
+        <item>□ Add 2 (□ 4) to your check against a card that has the Animal trait.</item>
+        <item>□ Recharge a card to reduce Combat damage dealt to you by 1 (□ 2).</item>
+    </string-array>
+    <string-array name="line_ssrole2">
+        <item><b>HAND SIZE</b> 5 □6 □7</item>
+        <item><b>PROFICIENT WITH</b> □ Light Armors  □ Weapons</item>
+        <item>When you play an ally that has the Animal trait, if you would recharge, discard, or bury it for its power, you may instead shuffle it into your deck (□ or put it on top of your deck).</item>
+        <item>You may discard a card to use a d12 for your Strength or Dexterity die; if the check is against a card that has the Animal or Aquatic trait, recharge the card instead.</item>
+        <item>□ When you succeed at a check to recharge a spell that has the Attack trait, you may put it on top of your deck instead.</item>
+        <item>□ Recharge a card to reduce Acid, Cold, Electricity, or Fire damage dealt to you by 1 (□ 2).</item>
+        <item>□ Add 2 (□ 4) to any combat check by a character at your location against a card that has the Aquatic trait (□ or any check by that character against a ship).</item>
+        <item>□ If you defeat a monster that has the Aquatic trait and would banish it, you may put it in your hand. You may banish a monster from your hand to add 1d4 to any combat check at your location.</item>
+    </string-array>
+    <string name="lirianne_ssrole1"><b>LIRIANNE (MUSKETEER)</b></string>
+    <string name="lirianne_ssrole2"><b>LIRIANNE (DEADEYE)</b></string>
+    <string-array name="lirianne_ssskills">
+        <item><b>STRENGTH:</b> d4</item>
+        <item><b>DEXTERITY:</b> d8 \nRANGED: DEXTERITY +3</item>
+        <item><b>CONSTITUTION:</b> d6 \nFORTITUDE: CONSTITUTION +1</item>
+        <item><b>INTELLIGENCE:</b> d6</item>
+        <item><b>WISDOM:</b> d12 \nPERCEPTION: WISDOM +2</item>
+        <item><b>CHARISMA:</b> d6</item>
+        <item><b>HAND SIZE</b> 4 □5</item>
+        <item><b>PROFICIENT WITH</b> Light Armors  Weapons</item>
+        <item>When you play a weapon that has the Firearm trait, if you would bury it or shuffle it into your deck, you may keep it and instead perform the required action with another card.</item>
+        <item>You may shuffle a card from your hand into your deck to add 1d4 (□+1)(□+2)(□+3) to any combat check at another location.</item>
+    </string-array>
+    <string-array name="lirianne_ssrole1">
+        <item><b>HAND SIZE</b> 4 □5 □6</item>
+        <item><b>PROFICIENT WITH</b> Light Armors  Weapons</item>
+        <item>When you play a weapon that has the Firearm trait, if you would bury it or shuffle it into your deck, you may keep it and instead perform the required action with another card.</item>
+        <item>You may shuffle a card from your hand into your deck to add 1d4 (□+1)(□+2)(□+3)(□+4) to any combat check at another location.</item>
+        <item>□ If you begin your turn with no weapons in your hand, you may draw a card.</item>
+        <item>□ When you play a weapon that has the Firearm trait on your combat check, you may immediately shuffle another such weapon into your deck to draw a card.</item>
+        <item>□ Add 2 (□ 3) (□ 4) to your combat check that has the Firearm trait.</item>
+        <item>□ You may discard a weapon to defeat a barrier that has the Cache, Lock, or Skirmish trait.</item>
+    </string-array>
+    <string-array name="lirianne_ssrole2">
+        <item><b>HAND SIZE</b> 4 □5 □6</item>
+        <item><b>PROFICIENT WITH</b> Light Armors  Weapons</item>
+        <item>When you play a weapon that has the Firearm trait, if you would bury it or shuffle it into your deck, you may keep it and instead perform the required action with another card.</item>
+        <item>You may shuffle a card from your hand into your deck to add 1d4 (□+1)(□+2)(□+3)(□+4) to any combat check at another location.</item>
+        <item>□ When you encounter a bane, you may attempt a Perception check with a difficulty of 5 plus the adventure deck number of the bane, if any, to evade it.</item>
+        <item>□ When you are on a ship and a random ship is summoned, you may draw 2 (□ or 3) such cards and choose 1.</item>
+        <item>□ When you would fail a combat check that has the Firearm trait, you may discard a weapon to add 1d4 to your result.</item>
+        <item>□ When you move to a different location during your move step, you may examine the top card of that location deck (□ and shuffle it into the deck).</item>
+    </string-array>
+    <string name="merisiel_ssrole1"><b>MERISIEL (SHADOW)</b></string>
+    <string name="merisiel_ssrole2"><b>MERISIEL (SMUGGLER)</b></string>
+    <string-array name="merisiel_ssskills">
+        <item><b>STRENGTH:</b> d6</item>
+        <item><b>DEXTERITY:</b> d12 \nACROBATICS: DEXTERITY +2 \nDISABLE: DEXTERITY +2 \nSTEALTH: DEXTERITY +2</item>
+        <item><b>CONSTITUTION:</b> d6</item>
+        <item><b>INTELLIGENCE:</b> d6 \nCRAFT: INTELLIGENCE +2</item>
+        <item><b>WISDOM:</b> d4</item>
+        <item><b>CHARISMA:</b> d8</item>
+        <item><b>HAND SIZE</b> 5 □6</item>
+        <item><b>PROFICIENT WITH</b> Light Armors  □ Weapons</item>
+        <item>You may evade your encounter.</item>
+        <item>If you are the only character at your location, you may recharge a card to add 1d6 (□+1)(□+2) to your combat check.</item>
+        <item>For your check that has or is against a card that has the Finesse trait, you gain the skill Melee: Dexterity +1.</item>
+    </string-array>
+    <string-array name="merisiel_ssrole1">
+        <item><b>MERISIEL (SHADOW)</b></item>
+        <item><b>HAND SIZE</b> 5 □6 □7</item>
+        <item><b>PROFICIENT WITH</b> Light Armors  □ Weapons</item>
+        <item>You may evade your encounter(□ and if it is a boon, you may put it on top of the location deck).</item>
+        <item>If you are the only character at your location, you may recharge a card to add 1d6 (□+1) (□+2) (□+3) (□+4) to your combat check (□ and discard it to add an additional 1d6).</item>
+        <item>For your check that has or is against a card that has the Finesse trait, you gain the skill Melee: Dexterity +1.</item>
+        <item>□ When a monster deals damage to you before (□ or after) the encounter, reduce that damage to 0.</item>
+        <item>□ You automatically succeed at your Knowledge check.</item>
+    </string-array>
+    <string-array name="merisiel_ssrole2">
+        <item><b>MERISIEL (SMUGGLER)</b></item>
+        <item><b>HAND SIZE</b> 5 □6 □7</item>
+        <item><b>PROFICIENT WITH</b> Light Armors  □ Weapons</item>
+        <item>You may evade your encounter. (□ If the encountered card has the Pirate or Swashbuckling trait, you may immediately explore again).</item>
+        <item>If you are the only character at your location, you may recharge a card to add 1d6 (□+1) (□+2) (□+3) to your combat check.</item>
+        <item>For your check that has or is against a card that has the Finesse trait, you gain the skill Melee: Dexterity +1.</item>
+        <item>□ Add 1d4 (□+1) to your non-combat check.</item>
+        <item>□ When you acquire a card, you may give it to another character.</item>
+        <item>□ When a character gives you a card on his turn, he may give you any number of cards.</item>
+        <item>□ When one or more plunder cards are stashed on your turn, you may stash an additional plunder card.</item>
+    </string-array>
+    <string name="oloch_ssrole1"><b>OLOCH (BATTLE CHAPLAIN)</b></string>
+    <string name="oloch_ssrole2"><b>OLOCH (SHIELD OF GORUM)</b></string>
+    <string-array name="oloch_ssskills">
+        <item><b>STRENGTH:</b> d12 \nMELEE: STRENGTH +1</item>
+        <item><b>DEXTERITY:</b> d4</item>
+        <item><b>CONSTITUTION:</b> d8 \nFORTITUDE: CONSTITUTION +3</item>
+        <item><b>INTELLIGENCE:</b> d4</item>
+        <item><b>WISDOM:</b> d8 \nDIVINE: WISDOM +2</item>
+        <item><b>CHARISMA:</b> d6</item>
+        <item><b>HAND SIZE</b> 4 □5</item>
+        <item><b>PROFICIENT WITH</b> Light Armors  Heavy Armors  Weapons</item>
+        <item>When another character attempts any check, you may display any number of blessings and weapons; for each card displayed, add 1 (□ 2) to the check. Return the displayed cards to your hand before you reset it (□ and at the start of your turn).</item>
+        <item>Instead of your first exploration on a turn, you may reveal a blessing or armor to choose a character at your location. Shuffle 1d4+1 (□+2) random cards from her discard pile into her deck, then discard the card you revealed.</item>
+    </string-array>
+    <string-array name="oloch_ssrole1">
+        <item><b>HAND SIZE</b> 4 □5 □6 □7</item>
+        <item><b>PROFICIENT WITH</b> Light Armors  Heavy Armors  Weapons</item>
+        <item>When another character attempts any check, you may display any number of blessings and weapons; for each card displayed, add 1 (□ 2) to the check. Return the displayed cards to your hand before you reset it (□ and at the start of your turn).</item>
+        <item>Instead of your first exploration on a turn, you may reveal a blessing or armor to choose a character at your location. Shuffle 1d4+1 (□+2)(□+3) random cards from her discard pile into her deck, then discard the card you revealed.</item>
+        <item>□ When you encounter an ally, you may banish it and immediately explore again.</item>
+        <item>□ You may automatically succeed at your check to acquire (□ or recharge) a card that has the Healing trait.</item>
+        <item>□ When a character plays a blessing on your combat or Strength check, that character may recharge (□ that blessing or) a random card from her discard pile.</item>
+    </string-array>
+    <string-array name="oloch_ssrole2">
+        <item><b>HAND SIZE</b> 4 □5 □6</item>
+        <item><b>PROFICIENT WITH</b> Light Armors  Heavy Armors  Weapons</item>
+        <item>When another character attempts any check, you may display any number of blessings and weapons; for each card displayed, add 1 (□ 2) to the check. Return the displayed cards to your hand before you reset it (□ and at the start of your turn).</item>
+        <item>Instead of your first exploration on a turn, you may reveal a blessing or armor to choose a character at your location. Shuffle 1d4+1 (□+2) random cards from her discard pile into her deck, then discard the card you revealed.</item>
+        <item>□ When another character at your location is dealt damage, you may reveal an armor to reduce that damage by 1; you may instead discard that armor to reduce the damage by 2 (□ 3) (□ 4).</item>
+        <item>□ When you would bury an armor or weapon, you may discard (□ or recharge) it instead.</item>
+        <item>□ Add 2 to your check to defeat a monster that has the Human trait.</item>
+        <item>□ When a character plays a blessing on your combat or Strength check, that character may recharge a random card from her discard pile; if the played card is Blessing of Gorum, the character may first recharge the blessing.</item>
+    </string-array>
+    <string name="seltyiel_ssrole1"><b>SELTYIEL (MARAUDER)</b></string>
+    <string name="seltyiel_ssrole2"><b>SELTYIEL (SPELLBLADE)</b></string>
+    <string-array name="seltyiel_ssskills">
+        <item><b>STRENGTH:</b> d8 \nMELEE: STRENGTH +3</item>
+        <item><b>DEXTERITY:</b> d6</item>
+        <item><b>CONSTITUTION:</b> d8</item>
+        <item><b>INTELLIGENCE:</b> d8 \nARCANE: INTELLIGENCE +3 \nCRAFT:INTELLIGENCE +1</item>
+        <item><b>WISDOM:</b> d4</item>
+        <item><b>CHARISMA:</b> d6</item>
+        <item><b>HAND SIZE</b> 5 □6 □7</item>
+        <item><b>PROFICIENT WITH</b> Light Armors  Weapons</item>
+        <item>Choose a weapon that doesn\'t have the 2-Handed trait and a spell that has the Attack trait. When you play one for your combat check, you may recharge the other(□ or shuffle it into your deck) to add 1d6 (□ 2d6) and that card\'s traits to the check.</item>
+        <item>At the end of your turn, you may attempt to recharge a spell in your discard pile.</item>
+    </string-array>
+    <string-array name="seltyiel_ssrole1">
+        <item><b>HAND SIZE</b> 5 □6 □7</item>
+        <item><b>PROFICIENT WITH</b> Light Armors  Weapons</item>
+        <item>Choose a weapon that doesn\'t have the 2-Handed trait and a spell that has the Attack trait. When you play one for your combat check, you may recharge the other(□ or shuffle it into your deck) to add 1d6 (□ 2d6) (□ 3d6) and that card\'s traits to the check.</item>
+        <item>At the end of your turn, you may attempt to recharge a spell in your discard pile.</item>
+        <item>□ You may discard a spell that has the Attack trait to add 1d6 (□ 2d6) to any check to defeat a ship or barrier.</item>
+        <item>□ You gain the skill Ranged: Intelligence +2.</item>
+        <item>□ When you discard (□ or recharge) a card that has the Pirate or Swashbuckling trait, you may draw 1 card (□ or 2 cards).</item>
+        <item>□ When you play a blessing on a Craft check, recharge the blessing.</item>
+    </string-array>
+    <string-array name="seltyiel_ssrole2">
+        <item><b>HAND SIZE</b> 5 □6 □7</item>
+        <item><b>PROFICIENT WITH</b> Light Armors  Weapons</item>
+        <item>Choose a weapon that doesn\'t have the 2-Handed trait and a spell that has the Attack trait. When you play one for your combat check, you may recharge the other(□ or shuffle it into your deck) to add 1d6 (□ 2d6) (□ 3d6) and that card\'s traits to the check.</item>
+        <item>At the end of your turn, you may attempt to recharge a spell in your discard pile.(□ If you succeed, you may put the card on top of your deck instead of recharging it.)</item>
+        <item>□ When you play a weapon that has the Sword trait, you may add your Intelligence skill to your combat check.</item>
+        <item>□ Add 2 (□ 4) to your check to acquire a spell or a weapon.</item>
+        <item>□ When you acquire a spell or a weapon on your turn, you may immediately explore again.</item>
+        <item>□ Discard a spell to put a weapon from your discard pile into your hand (□ or discard a weapon to put a spell from your discard pile into your hand).</item>
+    </string-array>
+    <string name="ranzak_ssrole1"><b>RANZAK (KLEPTOMANIAC)</b></string>
+    <string name="ranzak_ssrole2"><b>RANZAK (WRECKER)</b></string>
+    <string-array name="ranzak_ssskills">
+        <item><b>STRENGTH:</b> d4</item>
+        <item><b>DEXTERITY:</b> d10 \nDISABLE: DEXTERITY +1 \nSTEALTH: DEXTERITY +1</item>
+        <item><b>CONSTITUTION:</b> d12</item>
+        <item><b>INTELLIGENCE:</b> d4</item>
+        <item><b>WISDOM:</b> d4 \nSURVIVAL: WISDOM +3 </item>
+        <item><b>CHARISMA:</b> d6</item>
+        <item><b>HAND SIZE</b> 7 □8 □9</item>
+        <item><b>PROFICIENT WITH</b> Light Armors  Weapons</item>
+        <item>If there is another character at your location, you may evade a bane; a random other character at your location encounters it instead.</item>
+        <item>Add 1d4 (□+1) to your check to acquire a boon.</item>
+        <item>When you acquire a boon on your turn, roll 1d6; on a (□3,) 4, 5, or 6, explore your location.</item>
+    </string-array>
+    <string-array name="ranzak_ssrole1">
+        <item><b>HAND SIZE</b> 7 □8 □9 □10 □11</item>
+        <item><b>PROFICIENT WITH</b> Light Armors □ Heavy Armors Weapons</item>
+        <item>If there is another character at your location, you may evade a bane; a random other character at your location encounters it instead.</item>
+        <item>Add 1d4 (□+1)(□+3) to your check to acquire a boon.</item>
+        <item>When you acquire a boon on your turn, roll 1d6; on a (□3,) 4, 5, or 6, explore your location.</item>
+        <item>□ When you close a location, add a plunder card from the box to your hand.</item>
+        <item>□ If another character at your location fails a check to acquire a boon, you may attempt a check to acquire it.</item>
+        <item>□ When you receive plunder cards for successfully completing a scenario, you may banish any 1 of those cards and replace it with another plunder card from the box.</item>
+        <item>□ Discard a card from the blessings deck to explore your location.</item>
+    </string-array>
+    <string-array name="ranzak_ssrole2">
+        <item><b>HAND SIZE</b> 7 □8 □9 □10 □11</item>
+        <item><b>PROFICIENT WITH</b> Light Armors □ Heavy Armors Weapons</item>
+        <item>If there is another character at your location, you may evade a bane; a random other character at your location encounters it instead.</item>
+        <item>Add 1d4 (□+1) to your check to acquire a boon.</item>
+        <item>When you acquire a boon on your turn, roll 1d6; on a (□3,) 4, 5, or 6, explore your location.</item>
+        <item>□ Recharge a card to add 2d4 to your check to defeat a barrier or a henchman, then discard the top 1d4 cards from your deck.</item>
+        <item>□ At the end of your move step, if you are the only character at your location, you may move a random other character to your location.</item>
+        <item>□ After you defeat a monster from a location deck, you may examine the top card of that deck; if it’s a boon, banish it.</item>
+        <item>□ If you defeat a henchman by at least 6, add 1d6 (□2d6) to your check to close the location, if any.</item>
+    </string-array>
+    <string name="valeros_ssrole1"><b>VALEROS (CORSAIR)</b></string>
+    <string name="valeros_ssrole2"><b>VALEROS (TACTICIAN)</b></string>
+    <string-array name="valeros_ssskills">
+        <item><b>STRENGTH:</b> d10 \nMELEE: STRENGTH +3</item>
+        <item><b>DEXTERITY:</b> d6</item>
+        <item><b>CONSTITUTION:</b> d8</item>
+        <item><b>INTELLIGENCE:</b> d4</item>
+        <item><b>WISDOM:</b> d6</item>
+        <item><b>CHARISMA:</b> d8 \nDIPLOMACY: CHARISMA +1</item>
+        <item><b>HAND SIZE</b> 4 □5 □6</item>
+        <item><b>PROFICIENT WITH</b> Light Armors  Heavy Armors  Weapons</item>
+        <item>Add 1d4 (□+1) to another character\'s combat check at your location.</item>
+        <item>When you would discard a weapon for its power, you may recharge it (□ or shuffle it into your deck) instead.</item>
+    </string-array>
+    <string-array name="valeros_ssrole1">
+        <item><b>HAND SIZE</b> 4 □5 □6</item>
+        <item><b>PROFICIENT WITH</b> Light Armors  Heavy Armors  Weapons</item>
+        <item>Add 1d4 (□+1)(□+2)(□+3) to another character\'s combat check at your location.</item>
+        <item>When you would discard a weapon for its power, you may recharge it (□ or shuffle it into your deck) instead.</item>
+        <item>□ You may recharge a weapon to add the Swashbuckling trait to your check.</item>
+        <item>□ Add 2 (□ 4) to your check to defeat a monster that has the Captain or Pirate trait or a ship.</item>
+        <item>□ When you would put a barrier faceup on top of a location deck, you may shuffle it facedown into the deck instead.</item>
+        <item>□ Recharge a card to reduce Structural damage dealt to your ship by 1 (□ 2).</item>
+    </string-array>
+    <string-array name="valeros_ssrole2">
+        <item><b>HAND SIZE</b> 4 □5 □6</item>
+        <item><b>PROFICIENT WITH</b> Light Armors  Heavy Armors  Weapons</item>
+        <item>Add 1d4 (□+1)(□+2)(□+3)(□+4) to another character\'s combat check at your location.</item>
+        <item>When you would discard a weapon for its power, you may recharge it (□ or shuffle it into your deck) instead.</item>
+        <item>□ You may recharge an ally to add 1 plus its adventure deck number, if any, to your combat (□ or non-combat) check.</item>
+        <item>□ When another character encounters a villain, you may immediately move.</item>
+        <item>□ Add 2 (□ 4) to your check to defeat a henchman or villain.</item>
+    </string-array>
+
+
+    <string-array name="rr_weaps">
+        <item>Acidic Sling +3</item>
+        <item>Allying Dart +1</item>
+        <item>Bastard Sword</item>
+        <item>Bastard Sword +1</item>
+        <item>Battleaxe</item>
+        <item>Dagger</item>
+        <item>Dagger +1</item>
+        <item>Dancing Scimitar +2</item>
+        <item>Dart</item>
+        <item>Deathbane Light Crossbow +1</item>
+        <item>Dogslicer</item>
+        <item>Dogslicer +1</item>
+        <item>Flaming Icy Axe +1</item>
+        <item>Flaming Mace +1</item>
+        <item>Flaming Ranseur +3</item>
+        <item>Force Sling +3</item>
+        <item>Frost Longbow +1</item>
+        <item>Giantbane Dagger +1</item>
+        <item>Glaive</item>
+        <item>Greataxe</item>
+        <item>Greatclub +3</item>
+        <item>Greatsword</item>
+        <item>Heavy Crossbow</item>
+        <item>Heavy Pick +1</item>
+        <item>Icy Longspear +1</item>
+        <item>Light Crossbow</item>
+        <item>Light Crossbow +1</item>
+        <item>Longbow</item>
+        <item>Longbow +1</item>
+        <item>Longspear</item>
+        <item>Longsword</item>
+        <item>Longsword +1</item>
+        <item>Longsword +2</item>
+        <item>Mace</item>
+        <item>Quarterstaff</item>
+        <item>Returning Frost Spear +2</item>
+        <item>Returning Throwing Axe +1</item>
+        <item>Runechill Hatchet +2</item>
+        <item>Scimitar</item>
+        <item>Scythe +1</item>
+        <item>Shock Greatsword +2</item>
+        <item>Shock Longbow +1</item>
+        <item>Shortbow</item>
+        <item>Shortspear +3</item>
+        <item>Shortsword</item>
+        <item>Shortsword +1</item>
+        <item>Sickle +1</item>
+        <item>Sling</item>
+        <item>Spiked Chain</item>
+        <item>Starknife</item>
+        <item>Throwing Axe</item>
+        <item>Venomous Dagger +2</item>
+        <item>Venomous Heavy Crossbow +2</item>
+        <item>Vicious Trident +1</item>
+        <item>War Razor +1</item>
+        <item>Warhammer</item>
+        <item>Warhammer +1</item>
+        <item>Chellan, Sword of Greed</item>
+        <item>Fanged Falchion</item>
+        <item>Impaler of Thorns</item>
+        <item>Karzoug\'s Burning Glaive</item>
+        <item>Mokmurian\'s Club</item>
+    </string-array>
+    
+    <string-array name="rr_spells">
+        <item>Acid Arrow</item>
+        <item>Aid</item>
+        <item>Arcane Armor</item>
+        <item>Augury</item>
+        <item>Bewilder</item>
+        <item>Blizzard</item>
+        <item>Charm Person</item>
+        <item>Consecration</item>
+        <item>Corrosive Storm</item>
+        <item>Cure</item>
+        <item>Detect Evil</item>
+        <item>Disintegrate</item>
+        <item>Dominate</item>
+        <item>Enfeeble</item>
+        <item>Fiery Weapon</item>
+        <item>Find Traps</item>
+        <item>Force Missile</item>
+        <item>Frost Ray</item>
+        <item>Glibness</item>
+        <item>Guidance</item>
+        <item>Haste</item>
+        <item>Holy Light</item>
+        <item>Incendiary Cloud</item>
+        <item>Inflict</item>
+        <item>Invisibility</item>
+        <item>Invoke</item>
+        <item>Levitate</item>
+        <item>Lightning Bolt</item>
+        <item>Lightning Touch</item>
+        <item>Major Cure</item>
+        <item>Mass Cure</item>
+        <item>Mending</item>
+        <item>Mirror Image</item>
+        <item>Poison Blast</item>
+        <item>Raise Dead</item>
+        <item>Restoration</item>
+        <item>Sanctuary</item>
+        <item>Scorching Ray</item>
+        <item>Scrying</item>
+        <item>Sign of Wrath</item>
+        <item>Sleep</item>
+        <item>Speed</item>
+        <item>Strength</item>
+        <item>Swipe</item>
+        <item>Teleport</item>
+        <item>Toxic Cloud</item>
+        <item>Web</item>
+        <item>Summon Monster</item>
+    </string-array>
+
+    <string-array name="rr_armor">
+        <item>Adamantine Plate Armor</item>
+        <item>Arrow Catching Studded Leather</item>
+        <item>Bolstering Armor</item>
+        <item>Breastplate of Fire Resistance</item>
+        <item>Chain Mail</item>
+        <item>Chainmail of Cold Resistance</item>
+        <item>Deathbane Shield</item>
+        <item>Demon Armor</item>
+        <item>Elven Breastplate</item>
+        <item>Elven Chain Shirt</item>
+        <item>Entropy Shield</item>
+        <item>Fortress Shield</item>
+        <item>Greater Bolstering Armor</item>
+        <item>Half-Plate</item>
+        <item>Hide Armor of Fire Resistance</item>
+        <item>Invincible Breastplate</item>
+        <item>Leather Armor</item>
+        <item>Lesser Bolstering Armor</item>
+        <item>Magic Chain Mail</item>
+        <item>Magic Full Plate</item>
+        <item>Magic Half-Plate</item>
+        <item>Magic Leather Armor</item>
+        <item>Magic Shield</item>
+        <item>Magic Studded Leather Armor</item>
+        <item>Reflecting Shield</item>
+        <item>Shield of Fire Resistance</item>
+        <item>Spiny Shield</item>
+        <item>Winged Shield</item>
+        <item>Wooden Shield</item>
+        <item>Snakeskin Tunic</item>
+    </string-array>
+
+    <string-array name="rr_items">
+        <item>Amulet of Fiery Fists</item>
+        <item>Amulet of Fortitude</item>
+        <item>Amulet of Life</item>
+        <item>Amulet of Mighty Fists</item>
+        <item>Belt of Giant Strength</item>
+        <item>Belt of Incredible Dexterity</item>
+        <item>Belt of Physical Might</item>
+        <item>Blast Stone</item>
+        <item>Boots of Elvenkind</item>
+        <item>Boots of Teleportation</item>
+        <item>Bracers of Greater Protection</item>
+        <item>Bracers of Protection</item>
+        <item>Caltrops</item>
+        <item>Cape of Escape</item>
+        <item>Chime of Unlocking</item>
+        <item>Cloak of Elvenkind</item>
+        <item>Codex</item>
+        <item>Crowbar</item>
+        <item>Crown of Charisma</item>
+        <item>Eyes of the Eagle</item>
+        <item>Greater Luckstone</item>
+        <item>Headband of Alluring Charisma</item>
+        <item>Headband of Epic Intelligence</item>
+        <item>Headband of Inspired Wisdom</item>
+        <item>Holy Candle</item>
+        <item>Holy Water</item>
+        <item>Luckstone</item>
+        <item>Magic Spyglass</item>
+        <item>Masterwork Tools</item>
+        <item>Mattock</item>
+        <item>Necklace of Fireballs</item>
+        <item>Potion of Energy Resistance</item>
+        <item>Potion of Fortitude</item>
+        <item>Potion of Ghostly Form</item>
+        <item>Potion of Glibness</item>
+        <item>Potion of Gracefulness</item>
+        <item>Potion of Healing</item>
+        <item>Potion of Hiding</item>
+        <item>Potion of Ruggedness</item>
+        <item>Potion of Vision</item>
+        <item>Ring of Energy Resistance</item>
+        <item>Ring of Protection</item>
+        <item>Sage\'s Journal</item>
+        <item>Sihedron Ring</item>
+        <item>Spyglass</item>
+        <item>Staff of Heaven and Earth</item>
+        <item>Staff of Minor Healing</item>
+        <item>Thieves\' Tools</item>
+        <item>Token of Remembrance</item>
+        <item>Tome of  Knowledge</item>
+        <item>Wand of Force Missile</item>
+        <item>Wand of Scorching Ray</item>
+        <item>Wand of Shield</item>
+        <item>Wand of Treasure Finding</item>
+        <item>Emerald Codex</item>
+        <item>Headband of Vast Intelligence</item>
+        <item>Medusa Mask</item>
+        <item>Ordikon\'s Staff</item>
+        <item>Revelation Quill</item>
+        <item>Robes of Xin-Shalast</item>
+        <item>Sihedron Medallion</item>
+        <item>Sihedron Tome</item>
+        <item>Staff of Hungry Shadows</item>
+        <item>Wand of Enervation</item>
+    </string-array>
+
+    <string-array name="rr_allies">
+        <item>Acolyte</item>
+        <item>Aldern Foxglove</item>
+        <item>Ameiko Kaijitsu</item>
+        <item>Archer</item>
+        <item>Ayruzi</item>
+        <item>Bear</item>
+        <item>Black Arrow Ranger</item>
+        <item>Brodert Quink</item>
+        <item>Burglar</item>
+        <item>Cat</item>
+        <item>Charmed Red Dragon</item>
+        <item>Clockwork Librarian</item>
+        <item>Conna the Wise</item>
+        <item>Crow</item>
+        <item>Cyrdak Drokkus</item>
+        <item>Dog</item>
+        <item>Eagle</item>
+        <item>Elven Sharpshooter</item>
+        <item>Father Zantus</item>
+        <item>Giant Badger</item>
+        <item>Grizzled Mercenary</item>
+        <item>Guard</item>
+        <item>Guide</item>
+        <item>Gyukak</item>
+        <item>Ilsoari Gandethus</item>
+        <item>Jakardros Sovark</item>
+        <item>Lizard</item>
+        <item>Maester Grump</item>
+        <item>Mayor Kendra Deverin</item>
+        <item>Merchant</item>
+        <item>Monkey</item>
+        <item>Morgiv</item>
+        <item>Mountaineer</item>
+        <item>Night Watch</item>
+        <item>Pyromaniac Mage</item>
+        <item>Sabretooth Tiger</item>
+        <item>Sacred Killer</item>
+        <item>Sage</item>
+        <item>Shalelu Andosana</item>
+        <item>Shaman</item>
+        <item>Sheriff Hemlock</item>
+        <item>Snake</item>
+        <item>Soldier</item>
+        <item>Standard Bearer</item>
+        <item>Svenenka</item>
+        <item>Toad</item>
+        <item>Troubadour</item>
+        <item>Vale Temros</item>
+        <item>Velociraptor</item>
+        <item>Ven Vinder</item>
+        <item>Yap the Pixie</item>
+        <item>Zuvuzeg</item>
+    </string-array>
+
+    <string-array name="rr_blessings">
+        <item>Blessing of Abadar</item>
+        <item>Blessing of Calistria</item>
+        <item>Blessing of Desna</item>
+        <item>Blessing of Erastil</item>
+        <item>Blessing of Gorum</item>
+        <item>Blessing of Gozreh</item>
+        <item>Blessing of Iomedae</item>
+        <item>Blessing of Irori</item>
+        <item>Blessing of Lamashtu</item>
+        <item>Blessing of Nethys</item>
+        <item>Blessing of Norgorber</item>
+        <item>Blessing of Pharasma</item>
+        <item>Blessing of Sarenrae</item>
+        <item>Blessing of Shelyn</item>
+        <item>Blessing of Gods</item>
+        <item>Blessing of Torag</item>
+    </string-array>
+
+    <string name="title_activity_class_decks_under">Class Decks</string>
+    <string name="title_activity_rune_char">RuneChar</string>
+    <string name="title_activity_skullchar">SkullChar</string>
+
+</resources>

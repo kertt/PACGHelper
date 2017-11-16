@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dks.pathfinderacghelper" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="userLandscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RiseOfTheRunelordsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_rise_of_the_runelords"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="userLandscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="dks.pathfinderacghelper.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SkullAndShacklesActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_skull_and_shackles"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="userLandscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="dks.pathfinderacghelper.MainActivity" />
+        </activity>
+        <activity android:name=".WrathOfTheRighteousActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_wotr"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="userLandscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="dks.pathfinderacghelper.MainActivity"/>
+            </activity>
+        <activity
+            android:name=".ClassDecksActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_class_decks"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="userLandscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="dks.pathfinderacghelper.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ClassDecksUnder"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_class_decks_under"
+            android:parentActivityName=".ClassDecksActivity"
+            android:screenOrientation="userLandscape" >
+            android:parentActivityName=".ClassDecksActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="dks.pathfinderacghelper.ClassDecksActivity" />
+        </activity>
+        <activity
+            android:name=".RuneChar"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_rune_char"
+            android:parentActivityName=".RiseOfTheRunelordsActivity"
+            android:screenOrientation="userLandscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="dks.pathfinderacghelper.RiseOfTheRunelordsActivity" />
+        </activity>
+        <activity
+            android:name=".SkullChar"
+            android:label="@string/title_activity_skullchar"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="userLandscape"
+            android:parentActivityName=".SkullAndShacklesActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="dks.pathfinderacghelper.SkullAndShacklesActivity" />
+        </activity>
+    </application>
+
+</manifest>
