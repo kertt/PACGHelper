@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 /**
  * Created by Dennis on 15-12-2014.
  */
-public class DListFragment extends ListFragment {
+public class DListFragment extends Fragment {
 
     RuneChar active;
     String[] cardCounts;
